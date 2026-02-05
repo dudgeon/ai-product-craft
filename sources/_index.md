@@ -28,18 +28,14 @@ Master index of all source material. Sortable by status, type, author, and date.
 
 | Status | Source | Author | Type | Discovered | Ideas Extracted |
 |--------|--------|--------|------|------------|-----------------|
-| *None yet* | | | | | |
-
-<!-- Example row:
-| processed | [[shreyas-doshi-execution-taste]] | Shreyas Doshi | tweet-thread | 2026-02-05 | [[taste-vs-craft]], [[execution-quality]] |
--->
+| unread | [[2026-02-05-teresa-torres-claude-code-task-management]] | Claire Vo (Teresa Torres) | article | 2026-02-05 | — |
 
 ---
 
 ## By Status
 
 ### Unread
-*None yet.*
+- [[2026-02-05-teresa-torres-claude-code-task-management]] — Teresa Torres's Claude Code system for task management, research automation, and context libraries (Claire Vo / ChatPRD)
 
 ### Reading
 *None yet.*
@@ -54,8 +50,8 @@ Master index of all source material. Sortable by status, type, author, and date.
 
 ## Stats
 
-- **Total sources**: 0
-- **Unread**: 0
+- **Total sources**: 1
+- **Unread**: 1
 - **Processed**: 0
 - **Knowledge entries generated**: 0
 

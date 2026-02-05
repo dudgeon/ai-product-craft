@@ -97,7 +97,7 @@ Synthesized ideas organized by type. Each entry is atomic — one idea per file 
 
 ### Up Next (Unread)
 
-*None yet.*
+- [[2026-02-05-teresa-torres-claude-code-task-management]] — Teresa Torres's Claude Code workflows for task management, research automation, and context libraries (article, Claire Vo / ChatPRD)
 
 ### Recently Processed
 
@@ -110,6 +110,7 @@ Synthesized ideas organized by type. Each entry is atomic — one idea per file 
 ### 2026-02-05
 - Project structure created
 - Templates defined: `source.md`, `knowledge-entry.md`
+- First source captured: Teresa Torres / Claire Vo article on Claude Code workflows
 - Processing workflows documented
 
 ---
