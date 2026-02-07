@@ -75,6 +75,7 @@ Synthesized ideas organized by type. Each entry is atomic — one idea per file 
 
 - [[deliberate-context-selection]] — Hand-picking files for LLM context ("glass box") vs. relying on automatic context ("black box")
 - [[be-100x-more-specific]] — Prompting technique that forces AI past vague principles into concrete, actionable standards
+- [[my-job-your-job-role-delineation]] — Explicit human/AI responsibility partitioning ("MY job is X, YOUR job is Y") to scope authority and set deliverables
 
 ### Stakeholder & Team Dynamics
 
@@ -115,7 +116,7 @@ Synthesized ideas organized by type. Each entry is atomic — one idea per file 
 ### Recently Processed
 
 - [[2026-02-07-ryan-carson-structured-ai-development]] → [[interactive-prd-writing]], [[task-list-generation-for-observability]], [[stepwise-task-execution]], [[context-first-development]], [[deliberate-context-selection]]
-- [[2026-02-07-hilary-gridley-scaling-yourself-custom-gpts]] → [[reverse-engineer-judgment-into-ai]], [[be-100x-more-specific]], [[ai-as-writing-coach]], [[scale-manager-expertise-with-ai]]
+- [[2026-02-07-hilary-gridley-scaling-yourself-custom-gpts]] → [[reverse-engineer-judgment-into-ai]], [[be-100x-more-specific]], [[my-job-your-job-role-delineation]], [[ai-as-writing-coach]], [[scale-manager-expertise-with-ai]]
 
 ---
 
@@ -126,7 +127,8 @@ Synthesized ideas organized by type. Each entry is atomic — one idea per file 
 - Processed Ryan Carson source → 5 knowledge entries (interactive-prd-writing, task-list-generation-for-observability, stepwise-task-execution, context-first-development, deliberate-context-selection)
 - Processed Hilary Gridley source → 4 knowledge entries (reverse-engineer-judgment-into-ai, be-100x-more-specific, ai-as-writing-coach, scale-manager-expertise-with-ai)
 - Reprocessed both sources with higher granularity; updated source processing skill with decomposition guidance
-- 9 knowledge entries total, Knowledge Map updated
+- 10 knowledge entries total, Knowledge Map updated
+- Added "portable prompting patterns" guidance to source processing skill
 
 ### 2026-02-05
 - Project structure created
