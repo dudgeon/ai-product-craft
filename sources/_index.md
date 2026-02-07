@@ -35,8 +35,8 @@ Master index of all source material. Sortable by status, type, author, and date.
 | unread | [[2026-02-06-brex-agent-human-ops]] | James Reggio, Camilla Matias | article | 2026-02-06 | — |
 | unread | [[2026-02-06-agent-native-engineering]] | Andrew Pignanelli | article | 2026-02-06 | — |
 | unread | [[2026-02-06-teresa-torres-claude-code-guide]] | Teresa Torres | article | 2026-02-06 | — |
-| unread | [[2026-02-07-ryan-carson-structured-ai-development]] | Claire Vo (Ryan Carson) | article | 2026-02-07 | — |
-| unread | [[2026-02-07-hilary-gridley-scaling-yourself-custom-gpts]] | Claire Vo (Hilary Gridley) | article | 2026-02-07 | — |
+| processed | [[2026-02-07-ryan-carson-structured-ai-development]] | Claire Vo (Ryan Carson) | article | 2026-02-07 | [[prd-driven-ai-development]], [[context-first-development]], [[deliberate-context-selection]] |
+| processed | [[2026-02-07-hilary-gridley-scaling-yourself-custom-gpts]] | Claire Vo (Hilary Gridley) | article | 2026-02-07 | [[reverse-engineer-judgment-into-ai]], [[ai-as-writing-coach]], [[scale-manager-expertise-with-ai]] |
 
 ---
 
@@ -50,9 +50,6 @@ Master index of all source material. Sortable by status, type, author, and date.
 - [[2026-02-06-brex-agent-human-ops]] — How Brex is redesigning operations with AI: 3-level ops model, agent platform, hiring for generalists (First Round)
 - [[2026-02-06-agent-native-engineering]] — Restructuring engineering orgs around agents as ICs: task levels, code review, token spend (Andrew Pignanelli)
 - [[2026-02-06-teresa-torres-claude-code-guide]] — Claude Code for non-technical people: comparison with browser/desktop, competitive analysis example, data portability (Product Talk)
-- [[2026-02-07-ryan-carson-structured-ai-development]] — Three-file system for PRD → tasks → execution in Cursor, plus MCP automation and Repo Prompt (ChatPRD)
-- [[2026-02-07-hilary-gridley-scaling-yourself-custom-gpts]] — Building custom GPTs that clone your expert judgment for slide evaluation and writing coaching (ChatPRD)
-
 ### Reading
 *None yet.*
 
@@ -60,15 +57,16 @@ Master index of all source material. Sortable by status, type, author, and date.
 *None yet.*
 
 ### Processed
-*None yet.*
+- [[2026-02-07-ryan-carson-structured-ai-development]] — Three-file system for PRD → tasks → execution in Cursor, plus MCP automation and Repo Prompt (ChatPRD) → [[prd-driven-ai-development]], [[context-first-development]], [[deliberate-context-selection]]
+- [[2026-02-07-hilary-gridley-scaling-yourself-custom-gpts]] — Building custom GPTs that clone your expert judgment for slide evaluation and writing coaching (ChatPRD) → [[reverse-engineer-judgment-into-ai]], [[ai-as-writing-coach]], [[scale-manager-expertise-with-ai]]
 
 ---
 
 ## Stats
 
 - **Total sources**: 9
-- **Unread**: 9
-- **Processed**: 0
-- **Knowledge entries generated**: 0
+- **Unread**: 7
+- **Processed**: 2
+- **Knowledge entries generated**: 6
 
 *Updated: 2026-02-07*

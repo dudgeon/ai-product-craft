@@ -4,7 +4,7 @@ updated: 2026-02-07
 template: templates/source.md
 template_version: 1
 tags: [source, ai-pm-craft, cursor, structured-development]
-status: unread
+status: processed
 source_type: article
 source_url: "https://www.chatprd.ai/how-i-ai/ryan-carsons-3-step-playbook-for-structured-ai-development-in-cursor"
 archive_url: "domains/professional-development/ai-pm-craft/sources/2026-02-07-ryan-carson-structured-ai-development.md"
@@ -23,15 +23,21 @@ project: ai-pm-craft
 
 ## Summary
 
-*Fill after reading. 2-3 sentences: what is this about, what's the core argument or insight?*
+Ryan Carson's core argument is that "vibe coding" fails at scale because developers rush past context. His three-file rule system (generate PRD → generate tasks → execute one-by-one) forces structured context-building before any code is written. The secondary insight is about deliberate context control — using tools like Repo Prompt to hand-select exactly what the LLM sees rather than relying on automatic context, especially for complex architectural work.
 
 ## Key Ideas Extracted
 
-*Fill during processing. Each idea links to a knowledge entry.*
+- **[[prd-driven-ai-development]]**: Three-file rule system that structures AI development from high-level idea through PRD to executable task list with human-in-the-loop checkpoints
+- **[[context-first-development]]**: "Slow down to speed up" — the biggest mistake in AI-assisted development is rushing past context; writing PRDs "for a junior developer" forces the clarity AI needs
+- **[[deliberate-context-selection]]**: Hand-picking files for LLM context ("glass box") vs. relying on automatic context ("black box") — for complex tasks, precise context produces dramatically better results
 
 ## Notes
 
-*Your annotations, reactions, questions, disagreements. Written during or after reading.*
+The three workflows map to increasing levels of context control: rule files for process structure, MCPs for tool integration, Repo Prompt for surgical file selection. The common thread is always context quality.
+
+The "suitable for a junior developer" instruction is clever — it forces the PRD to be explicit enough for an LLM to follow unambiguously. What's good for a junior dev is good for AI.
+
+The MCP workflow (Browserbase, Postgres) is interesting but more of a tool demo than a reusable technique. The real insight is that MCPs collapse context-switching by bringing external tools into the IDE.
 
 ## Raw Content
 

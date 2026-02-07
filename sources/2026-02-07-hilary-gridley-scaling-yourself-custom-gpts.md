@@ -4,7 +4,7 @@ updated: 2026-02-07
 template: templates/source.md
 template_version: 1
 tags: [source, ai-pm-craft, management, custom-gpts]
-status: unread
+status: processed
 source_type: article
 source_url: "https://www.chatprd.ai/how-i-ai/scaling-yourself-as-a-manager-with-custom-gpts"
 archive_url: "domains/professional-development/ai-pm-craft/sources/2026-02-07-hilary-gridley-scaling-yourself-custom-gpts.md"
@@ -23,15 +23,21 @@ project: ai-pm-craft
 
 ## Summary
 
-*Fill after reading. 2-3 sentences: what is this about, what's the core argument or insight?*
+Hilary Gridley demonstrates two ways to scale managerial expertise through AI. First, reverse-engineering your own implicit quality standards from before/after examples and encoding them into a custom GPT ("Deck Doctor") that delivers consistent, criteria-based feedback to your team. Second, using AI as a writing coach through a structured workflow: brain dump → thesis validation → blind spot detection → restructuring — where AI challenges and sharpens your thinking but you always do the final rewrite.
 
 ## Key Ideas Extracted
 
-*Fill during processing. Each idea links to a knowledge entry.*
+- **[[reverse-engineer-judgment-into-ai]]**: Collect before/after examples, have AI discover your implicit criteria, refine iteratively with "be 100x more specific," then encode into a reusable custom GPT
+- **[[ai-as-writing-coach]]**: Structured workflow for using AI to sharpen written communication — thesis validation, blind spot detection, restructuring — where the human always writes the final version
+- **[[scale-manager-expertise-with-ai]]**: Automate the "0-to-60%" repetitive feedback (slide reviews, writing coaching) so managers can focus on deep strategic thinking and personal mentorship
 
 ## Notes
 
-*Your annotations, reactions, questions, disagreements. Written during or after reading.*
+The "be 100x more specific" prompt is deceptively powerful — it's a general-purpose technique for forcing AI past platitudes into actionable specifics. Works for any domain where you need concrete criteria.
+
+The reverse-engineering approach is interesting because it starts open-ended intentionally — she doesn't want to bias the AI with her own framing first. Let AI discover patterns, then human refines. This is the opposite of most prompting advice ("be specific upfront").
+
+The writing coach workflow embodies a key principle: use AI to *challenge* your thinking, not to *replace* it. The AI should help you "make it right" not "validate that it's right."
 
 ## Raw Content
 

@@ -52,14 +52,12 @@ Synthesized ideas organized by type. Each entry is atomic — one idea per file 
 
 *How to set direction for AI products, evaluate opportunities, and make bets.*
 
-<!-- Example entries (uncomment/replace as entries are created):
-- [[working-backwards]] — Starting from the customer outcome and reasoning back to requirements
-- [[opportunity-sizing-for-ai]] — How traditional TAM/SAM/SOM shifts when AI changes the cost curve
--->
-
 ### Shipping & Execution
 
 *How to move AI products from idea to production — scoping, tradeoffs, iteration.*
+
+- [[prd-driven-ai-development]] — Three-file rule system for structured AI development: PRD → tasks → stepwise execution with human-in-the-loop
+- [[context-first-development]] — "Slow down to speed up" — the biggest mistake in AI-assisted development is rushing past context
 
 ### Evaluation & Measurement
 
@@ -73,13 +71,20 @@ Synthesized ideas organized by type. Each entry is atomic — one idea per file 
 
 *What AI PMs need to understand about models, infra, evals, and the stack — without becoming engineers.*
 
+- [[deliberate-context-selection]] — Hand-picking files for LLM context ("glass box") vs. relying on automatic context ("black box")
+
 ### Stakeholder & Team Dynamics
 
 *Working with ML engineers, researchers, executives. Communicating uncertainty. Building trust.*
 
+- [[scale-manager-expertise-with-ai]] — Automate "0-to-60%" repetitive feedback so managers can focus on deep strategic thinking and mentorship
+- [[reverse-engineer-judgment-into-ai]] — Collect before/after examples, have AI discover your implicit criteria, encode into reusable evaluator
+
 ### Career & Growth
 
 *PM career progression, skill development, differentiation in the AI era.*
+
+- [[ai-as-writing-coach]] — Structured workflow for using AI to sharpen written communication: thesis validation → blind spots → restructuring
 
 ### Uncategorized
 
@@ -104,12 +109,10 @@ Synthesized ideas organized by type. Each entry is atomic — one idea per file 
 - [[2026-02-06-brex-agent-human-ops]] — How Brex redesigns operations with AI: 3-level ops model, agent platform, generalist hiring (article, First Round)
 - [[2026-02-06-agent-native-engineering]] — Restructuring engineering orgs around agents as ICs: task levels, code review, token spend (article, Andrew Pignanelli)
 - [[2026-02-06-teresa-torres-claude-code-guide]] — Claude Code for non-technical people: comparison with browser/desktop, data portability (article, Teresa Torres / Product Talk)
-- [[2026-02-07-ryan-carson-structured-ai-development]] — Three-file system for PRD → tasks → execution in Cursor, plus MCP and Repo Prompt (article, Claire Vo / ChatPRD)
-- [[2026-02-07-hilary-gridley-scaling-yourself-custom-gpts]] — Building custom GPTs that clone expert judgment for slide evaluation and writing coaching (article, Claire Vo / ChatPRD)
-
 ### Recently Processed
 
-*None yet.*
+- [[2026-02-07-ryan-carson-structured-ai-development]] → [[prd-driven-ai-development]], [[context-first-development]], [[deliberate-context-selection]]
+- [[2026-02-07-hilary-gridley-scaling-yourself-custom-gpts]] → [[reverse-engineer-judgment-into-ai]], [[ai-as-writing-coach]], [[scale-manager-expertise-with-ai]]
 
 ---
 
@@ -117,7 +120,9 @@ Synthesized ideas organized by type. Each entry is atomic — one idea per file 
 
 ### 2026-02-07
 - Inbox triage: 11 items processed, 8 unique sources added (4 Ryan Carson duplicates merged)
-- Source registry now at 9 sources, all unread
+- Processed Ryan Carson source → 3 knowledge entries (prd-driven-ai-development, context-first-development, deliberate-context-selection)
+- Processed Hilary Gridley source → 3 knowledge entries (reverse-engineer-judgment-into-ai, ai-as-writing-coach, scale-manager-expertise-with-ai)
+- 6 knowledge entries created, Knowledge Map updated
 
 ### 2026-02-05
 - Project structure created
