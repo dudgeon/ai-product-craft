@@ -171,14 +171,18 @@ flowchart TD
 ### Up Next (Unread)
 
 - [[2026-02-05-teresa-torres-claude-code-task-management]] — Teresa Torres's Claude Code workflows for task management, research automation, and context libraries (article, Claire Vo / ChatPRD)
-- [[2026-02-06-git-workflows-agentic-era]] — Git subtree/submodule patterns for sharing context across repos in the agentic era (article, organic)
-- [[2026-02-06-spec-driven-development-no-code-library]] — A software library with no code: spec-only libraries and when they work (article, Drew Breunig)
 - [[2026-02-06-build-ai-product-sense]] — Using Cursor for non-technical work to build AI product sense — RAG, memory, context engineering (newsletter, Tal Raviv & Aman Khan / Lenny's)
 - [[2026-02-06-brex-agent-human-ops]] — How Brex redesigns operations with AI: 3-level ops model, agent platform, generalist hiring (article, First Round)
 - [[2026-02-06-agent-native-engineering]] — Restructuring engineering orgs around agents as ICs: task levels, code review, token spend (article, Andrew Pignanelli)
 - [[2026-02-06-teresa-torres-claude-code-guide]] — Claude Code for non-technical people: comparison with browser/desktop, data portability (article, Teresa Torres / Product Talk)
 - [[2026-02-07-zapier-workflows-crm-automation-meeting-prep]] — Zapier MCP workflows for CRM automation, meeting prep, and self-improving feedback loops (article, Claire Vo / ChatPRD)
 - [[2026-02-07-iterative-workflow-refinement-with-ai-agents]] — Iterative refinement of AI agent skill files through three rounds of feedback (organic draft, Dudgeon & Claude)
+
+### Read (Awaiting Processing)
+
+- [[2026-02-06-spec-driven-development-no-code-library]] — Spec-only library with zero code; boundaries of spec-driven dev (article, Drew Breunig)
+- [[2026-02-06-git-workflows-agentic-era]] — Git subtree + submodule patterns for agentic context sharing (article, organic)
+
 ### Recently Processed
 
 - [[2026-02-07-ryan-carson-structured-ai-development]] → [[interactive-prd-writing]], [[task-list-generation-for-observability]], [[stepwise-task-execution]], [[context-first-development]], [[deliberate-context-selection]]

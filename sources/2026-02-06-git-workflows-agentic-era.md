@@ -2,15 +2,16 @@
 created: 2026-02-06
 updated: 2026-02-07
 template: templates/source.md
-template_version: 1
+template_version: 2
 tags: [source, ai-pm-craft, organic]
-status: unread
+status: read
 source_type: article
 source_url: ""
 archive_url: "domains/professional-development/ai-pm-craft/sources/2026-02-06-git-workflows-agentic-era.md"
 author: "Dudgeon (organic)"
 published: 2026-02-06
 discovered: 2026-02-06
+summary: "Two git patterns for agentic workflows: (1) subtree push to publish private repo folders to public repos with history intact, (2) submodules to import external repos as agent context. CLAUDE.md bridges both contexts. Prediction: team knowledge repos become first-class infra; submodules get reputation upgrade because agents handle the ceremony humans find annoying."
 domain: professional-development
 project: ai-pm-craft
 ---
@@ -23,7 +24,7 @@ project: ai-pm-craft
 
 ## Summary
 
-*Fill after reading. 2-3 sentences: what is this about, what's the core argument or insight?*
+Repository boundaries are shifting from code isolation to context boundaries. Git subtree (publish outward) and submodules (import inward) solve the mechanics; CLAUDE.md files bridge the gap by documenting relationships for agents. The key reframe: submodules' ceremony is only painful for humans — agents handle it trivially, and explicit version pinning becomes a feature for reproducibility. Team knowledge repos (markdown, not wikis) are emerging as first-class infrastructure.
 
 ## Key Ideas Extracted
 

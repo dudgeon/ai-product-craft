@@ -2,7 +2,7 @@
 created: 2026-02-06
 updated: 2026-02-07
 template: templates/source.md
-template_version: 1
+template_version: 2
 tags: [source, ai-pm-craft, claude-code, non-technical]
 status: unread
 source_type: article
@@ -11,6 +11,7 @@ archive_url: "domains/professional-development/ai-pm-craft/sources/2026-02-06-te
 author: "Teresa Torres"
 published: 2025-10-29
 discovered: 2026-02-06
+summary: "Detailed comparison of Claude access points (browser, Projects, Desktop+MCP, Claude Code) for non-technical users. Claude Code's file-system access enables compounding reusable systems — slash commands, parallel agents, portable markdown context — vs browser Claude's copy-paste-per-chat loop. Competitive analysis use case demonstrates the progression from chat to system."
 domain: professional-development
 project: ai-pm-craft
 ---

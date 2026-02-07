@@ -2,7 +2,7 @@
 created: 2026-02-06
 updated: 2026-02-07
 template: templates/source.md
-template_version: 1
+template_version: 2
 tags: [source, ai-pm-craft, operations, agent-ops]
 status: unread
 source_type: article
@@ -11,6 +11,7 @@ archive_url: "domains/professional-development/ai-pm-craft/sources/2026-02-06-br
 author: "James Reggio, Camilla Matias (First Round)"
 published: 2025-09-25
 discovered: 2026-02-06
+summary: "Brex built a three-tier ops model (L1 fully automated BPO replacement, L2 agent+people management, L3 strategic experts) on an internal Retool-based agent platform. 50%+ CS cases resolved by AI; 15 roles migrated from L1→L2. Key insights: set 100% automation as target not 40%, AI beats humans at subjective judgment tasks (adverse media, email personalization), and hire for AI-leveraging problem-solving not domain expertise."
 domain: professional-development
 project: ai-pm-craft
 ---

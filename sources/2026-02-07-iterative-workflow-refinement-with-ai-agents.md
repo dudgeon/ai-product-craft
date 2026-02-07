@@ -2,7 +2,7 @@
 created: 2026-02-07
 updated: 2026-02-07
 template: templates/source.md
-template_version: 1
+template_version: 2
 tags: [source, ai-pm-craft]
 status: unread
 source_type: organic
@@ -11,6 +11,7 @@ archive_url: "domains/professional-development/ai-pm-craft/sources/2026-02-07-it
 author: "Geoff Dudgeon and Claude"
 published: 2026-02-07
 discovered: 2026-02-07
+summary: "Case study of iteratively refining an AI agent's skill file (rules governing source→knowledge extraction) over 3 rounds: decomposition guidance, portable prompting patterns, then ontology restructuring. Core thesis: the skill file is the real product — encode feedback as principles, not patches, so every future run benefits. Expect 3 passes; work at two levels (output + meta-rules) simultaneously."
 domain: professional-development
 project: ai-pm-craft
 ---

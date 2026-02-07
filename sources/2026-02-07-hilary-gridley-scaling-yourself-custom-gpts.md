@@ -2,7 +2,7 @@
 created: 2026-02-07
 updated: 2026-02-07
 template: templates/source.md
-template_version: 1
+template_version: 2
 tags: [source, ai-pm-craft, management, custom-gpts]
 status: processed
 source_type: article
@@ -11,6 +11,7 @@ archive_url: "domains/professional-development/ai-pm-craft/sources/2026-02-07-hi
 author: "Claire Vo (interview with Hilary Gridley)"
 published: 2025-05-19
 discovered: 2026-02-07
+summary: "Two approaches to scaling managerial expertise: (1) reverse-engineer implicit quality standards from before/after examples into a custom GPT ('Deck Doctor') that gives consistent criteria-based feedback, (2) use AI as a writing coach via brain dump→thesis validation→blind spot detection→restructure workflow. Portable patterns: 'be 100x more specific' and 'MY job/YOUR job' role delineation."
 domain: professional-development
 project: ai-pm-craft
 ---

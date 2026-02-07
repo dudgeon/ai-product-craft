@@ -2,7 +2,7 @@
 created: 2026-02-05
 updated: 2026-02-05
 template: templates/source.md
-template_version: 1
+template_version: 2
 tags: [source, ai-pm-craft]
 status: unread
 source_type: article
@@ -11,6 +11,7 @@ archive_url: "domains/professional-development/ai-pm-craft/sources/2026-02-05-te
 author: "Claire Vo"
 published: 2026-01-19
 discovered: 2026-02-05
+summary: "Teresa Torres built a Claude Code + Obsidian productivity system: custom /today command for daily task assembly, automated arXiv/Scholar research digests, and a granular context library ('lazy prompting') where dozens of small md files replace lengthy prompts. Core thesis: build your own AI tools, treat Claude as pair programmer for everything."
 domain: professional-development
 project: ai-pm-craft
 ---

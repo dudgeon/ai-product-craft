@@ -2,15 +2,16 @@
 created: 2026-02-06
 updated: 2026-02-07
 template: templates/source.md
-template_version: 1
+template_version: 2
 tags: [source, ai-pm-craft, spec-driven-development, ai-coding]
-status: unread
+status: read
 source_type: article
 source_url: "https://www.dbreunig.com/2026/01/08/a-software-library-with-no-code.html"
 archive_url: "domains/professional-development/ai-pm-craft/sources/2026-02-06-spec-driven-development-no-code-library.md"
 author: "Drew Breunig"
 published: 2026-01-08
 discovered: 2026-02-06
+summary: "whenwords library ships specs + tests with zero code — AI agents implement in any language from SPEC.md and tests.yaml. Works for simple, well-bounded utilities; breaks down for complex frameworks needing perf optimization, community support, iterative debugging, and security patches. PM question: which product components are 'implement and forget' utilities vs foundations requiring traditional dev investment?"
 domain: professional-development
 project: ai-pm-craft
 ---
@@ -23,7 +24,7 @@ project: ai-pm-craft
 
 ## Summary
 
-*Fill after reading. 2-3 sentences: what is this about, what's the core argument or insight?*
+Breunig's `whenwords` is a thought experiment: what if libraries shipped only specs and tests, with AI handling implementation? It works for small, stable utilities but breaks down fast — debugging probabilistic code, cross-language test matrices, security patching, and community support all require concrete implementations. The real PM takeaway is the classification question: which parts of your product are "implement and forget" utilities vs. foundations that need traditional investment?
 
 ## Key Ideas Extracted
 
