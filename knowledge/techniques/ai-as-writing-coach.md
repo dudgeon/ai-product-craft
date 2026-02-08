@@ -2,10 +2,12 @@
 created: 2026-02-07
 updated: 2026-02-07
 template: templates/knowledge-entry.md
-template_version: 1
+template_version: 2
 tags: [knowledge, ai-pm-craft, technique, writing, communication]
 status: draft
 entry_type: technique
+origin: sourced
+featured: false
 domain: professional-development
 project: ai-pm-craft
 ---
@@ -32,6 +34,7 @@ A structured workflow for using AI to sharpen written communication — not by h
 
 ### From: [[2026-02-07-hilary-gridley-scaling-yourself-custom-gpts]]
 **Key quote**: "Try to get the AI to help you make it right as opposed to assuming that it's right and getting the AI to validate that."
+**Attribution**: Hilary Gridley
 **What this source adds**: Gridley positions this as a career advancement technique — the best way to get invited to strategic meetings is to write sharply enough that your ideas get shared around. The AI writing coach workflow is designed to produce writing that has that effect. The emphasis on ending with a human rewrite ensures the output is authentically yours.
 **Links**: [Original](https://www.chatprd.ai/how-i-ai/scaling-yourself-as-a-manager-with-custom-gpts) | [[2026-02-07-hilary-gridley-scaling-yourself-custom-gpts|Archive]]
 

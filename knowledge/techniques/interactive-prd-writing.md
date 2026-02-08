@@ -2,10 +2,12 @@
 created: 2026-02-07
 updated: 2026-02-07
 template: templates/knowledge-entry.md
-template_version: 1
+template_version: 2
 tags: [knowledge, ai-pm-craft, technique, prd, requirements]
 status: draft
 entry_type: technique
+origin: sourced
+featured: false
 domain: professional-development
 project: ai-pm-craft
 ---
@@ -39,6 +41,7 @@ The result is a complete PRD written at a level "suitable for a junior developer
 
 ### From: [[2026-02-07-ryan-carson-structured-ai-development]]
 **Key quote**: "The biggest mistake that I do, that everyone does is they try to rush through the context where you just don't have the patience to tell the AI what it actually needs to know to solve your problem."
+**Attribution**: Ryan Carson
 **What this source adds**: Carson's open-source `generate_prd.md` rule file provides the concrete implementation. The "junior developer" instruction is his key insight — it's a simple heuristic that produces AI-friendly documentation. The emphasis on the AI asking questions first (rather than immediately generating) is what makes this interactive rather than just templated.
 **Links**: [Original](https://www.chatprd.ai/how-i-ai/ryan-carsons-3-step-playbook-for-structured-ai-development-in-cursor) | [[2026-02-07-ryan-carson-structured-ai-development|Archive]]
 

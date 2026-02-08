@@ -2,10 +2,12 @@
 created: 2026-02-07
 updated: 2026-02-07
 template: templates/knowledge-entry.md
-template_version: 1
+template_version: 2
 tags: [knowledge, ai-pm-craft, technique, execution, human-in-the-loop]
 status: draft
 entry_type: technique
+origin: sourced
+featured: false
 domain: professional-development
 project: ai-pm-craft
 ---
@@ -40,6 +42,7 @@ The key insight: in AI-assisted development, errors are cheap to fix at step N b
 
 ### From: [[2026-02-07-ryan-carson-structured-ai-development]]
 **Key quote**: "This back-and-forth, one-step-at-a-time process is what makes the whole system so reliable. It lets Ryan catch small errors, linter issues, or other mistakes before they become bigger problems."
+**Attribution**: Ryan Carson
 **What this source adds**: Carson's `task_list_management.md` rule file implements this as a concrete Cursor workflow. The mechanism is simple: the AI edits the TASKS.md file to check off boxes, creating a visible audit trail. The "yes to continue" UX is minimal but effective — it keeps the human in control without requiring deep engagement at every step.
 **Links**: [Original](https://www.chatprd.ai/how-i-ai/ryan-carsons-3-step-playbook-for-structured-ai-development-in-cursor) | [[2026-02-07-ryan-carson-structured-ai-development|Archive]]
 

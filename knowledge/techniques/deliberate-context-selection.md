@@ -2,10 +2,12 @@
 created: 2026-02-07
 updated: 2026-02-07
 template: templates/knowledge-entry.md
-template_version: 1
+template_version: 2
 tags: [knowledge, ai-pm-craft, technique, context-engineering]
 status: draft
 entry_type: technique
+origin: sourced
+featured: false
 domain: professional-development
 project: ai-pm-craft
 ---
@@ -33,6 +35,7 @@ When working with LLMs on complex tasks (architectural reviews, tricky refactors
 
 ### From: [[2026-02-07-ryan-carson-structured-ai-development]]
 **Key quote**: Repo Prompt "replaces the 'black box' of automatic context with the 'glass box' of deliberate, precise control."
+**Attribution**: Ryan Carson
 **What this source adds**: Carson demonstrates this through Repo Prompt — a desktop app that lets you visually select files, add persona instructions, and generate structured prompts with XML tags. The key distinction: automatic context is fine for routine work, but for complex tasks you need surgical precision over what the LLM sees.
 **Links**: [Original](https://www.chatprd.ai/how-i-ai/ryan-carsons-3-step-playbook-for-structured-ai-development-in-cursor) | [[2026-02-07-ryan-carson-structured-ai-development|Archive]]
 

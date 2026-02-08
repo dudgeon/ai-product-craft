@@ -2,10 +2,12 @@
 created: 2026-02-07
 updated: 2026-02-07
 template: templates/knowledge-entry.md
-template_version: 1
+template_version: 2
 tags: [knowledge, ai-pm-craft, technique, prompting, role-delineation]
 status: draft
 entry_type: technique
+origin: sourced
+featured: false
 domain: professional-development
 project: ai-pm-craft
 ---
@@ -44,6 +46,7 @@ YOUR job is [what you want the AI to produce — a specific, bounded deliverable
 
 ### From: [[2026-02-07-hilary-gridley-scaling-yourself-custom-gpts]]
 **Key quote**: "My job is to create a GPT that can evaluate slide decks for people on my team based on my specific criteria that I care about. It's really important to me that this GPT explains the criteria, why it matters, and gives the user specific feedback on how to improve. YOUR job is to write the prompt for it."
+**Attribution**: Hilary Gridley
 **What this source adds**: Gridley uses this in the context of building a custom GPT evaluator — she retains ownership of the quality standards and delegates the prompt engineering to the AI. The result is a detailed set of GPT instructions including persona, evaluation criteria, and feedback format. Notable that she embeds her requirements *within* the role delineation itself ("it's really important to me that..."), making the handoff information-rich rather than just structural.
 **Links**: [Original](https://www.chatprd.ai/how-i-ai/scaling-yourself-as-a-manager-with-custom-gpts) | [[2026-02-07-hilary-gridley-scaling-yourself-custom-gpts|Archive]]
 

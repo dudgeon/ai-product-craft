@@ -2,10 +2,12 @@
 created: 2026-02-07
 updated: 2026-02-07
 template: templates/knowledge-entry.md
-template_version: 1
+template_version: 2
 tags: [knowledge, ai-pm-craft, technique, observability, stakeholder-engagement]
 status: draft
 entry_type: technique
+origin: sourced
+featured: false
 domain: professional-development
 project: ai-pm-craft
 ---
@@ -39,6 +41,7 @@ The mechanism: a rule file instructs the AI to first propose a high-level plan a
 
 ### From: [[2026-02-07-ryan-carson-structured-ai-development]]
 **Key quote**: (on the AI proposing a high-level plan first and asking for approval) "This human-in-the-loop step makes sure the plan is headed in the right direction."
+**Attribution**: Ryan Carson
 **What this source adds**: Carson's `generate_tasks.md` rule file is the concrete implementation. The key design choice is the two-phase generation: high-level plan → approval → detailed tasks. This prevents the AI from going deep on a wrong approach. The Markdown checkbox format is simple but powerful — it creates a living document that tracks progress as the AI works.
 **Links**: [Original](https://www.chatprd.ai/how-i-ai/ryan-carsons-3-step-playbook-for-structured-ai-development-in-cursor) | [[2026-02-07-ryan-carson-structured-ai-development|Archive]]
 

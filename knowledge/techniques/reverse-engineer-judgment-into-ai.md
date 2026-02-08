@@ -2,10 +2,12 @@
 created: 2026-02-07
 updated: 2026-02-07
 template: templates/knowledge-entry.md
-template_version: 1
+template_version: 2
 tags: [knowledge, ai-pm-craft, technique, custom-gpts, management]
 status: draft
 entry_type: technique
+origin: sourced
+featured: false
 domain: professional-development
 project: ai-pm-craft
 ---
@@ -35,6 +37,7 @@ The crucial move is starting open-ended — letting AI discover patterns without
 
 ### From: [[2026-02-07-hilary-gridley-scaling-yourself-custom-gpts]]
 **Key quote**: "I kind of want the AI to start by interpreting this in ways that I might not even be able to predict. And then I'm gonna get an intune it and that's when I get super, super specific."
+**Attribution**: Hilary Gridley
 **What this source adds**: The complete "Deck Doctor" workflow from Hilary Gridley (Head of Core Product, WHOOP). Notable for the deliberate open-ended start — she avoids biasing the AI so it can discover patterns she might not have articulated herself. The "be 100x more specific" technique is a broadly applicable refinement step.
 **Links**: [Original](https://www.chatprd.ai/how-i-ai/scaling-yourself-as-a-manager-with-custom-gpts) | [[2026-02-07-hilary-gridley-scaling-yourself-custom-gpts|Archive]]
 

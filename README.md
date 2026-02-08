@@ -55,6 +55,10 @@ Synthesized ideas organized by type. Each entry is atomic — one idea per file 
 
 **Entry types**: `technique`, `mental-model`, `insight`
 
+**Origin**: `sourced` (from external sources) | `organic` (from personal experience) | `both`
+
+**Featured**: Entries marked `featured: true` are techniques worth championing organizationally — candidates for collateral building and adoption storytelling. Shown with **★** in the Knowledge Map.
+
 ### System Flow
 
 ```mermaid

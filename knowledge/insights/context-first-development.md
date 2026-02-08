@@ -2,10 +2,12 @@
 created: 2026-02-07
 updated: 2026-02-07
 template: templates/knowledge-entry.md
-template_version: 1
+template_version: 2
 tags: [knowledge, ai-pm-craft, insight, context-engineering]
 status: draft
 entry_type: insight
+origin: sourced
+featured: false
 domain: professional-development
 project: ai-pm-craft
 ---
@@ -34,6 +36,7 @@ A practical heuristic: write as if you're instructing a "junior developer." This
 
 ### From: [[2026-02-07-ryan-carson-structured-ai-development]]
 **Key quote**: "The biggest mistake that I do, that everyone does is they try to rush through the context where you just don't have the patience to tell the AI what it actually needs to know to solve your problem."
+**Attribution**: Ryan Carson
 **What this source adds**: Carson frames context-building as the critical bottleneck in AI development and provides a concrete system (rule files + PRD + task decomposition) that forces you to slow down. The "junior developer" heuristic for PRD writing is a practical, memorable test.
 **Links**: [Original](https://www.chatprd.ai/how-i-ai/ryan-carsons-3-step-playbook-for-structured-ai-development-in-cursor) | [[2026-02-07-ryan-carson-structured-ai-development|Archive]]
 

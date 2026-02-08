@@ -2,10 +2,12 @@
 created: 2026-02-07
 updated: 2026-02-07
 template: templates/knowledge-entry.md
-template_version: 1
+template_version: 2
 tags: [knowledge, ai-pm-craft, technique, prompting, refinement]
 status: draft
 entry_type: technique
+origin: sourced
+featured: false
 domain: professional-development
 project: ai-pm-craft
 ---
@@ -39,6 +41,7 @@ The technique works because LLMs tend to produce safe, generic outputs on the fi
 
 ### From: [[2026-02-07-hilary-gridley-scaling-yourself-custom-gpts]]
 **Key quote**: "I kind of want the AI to start by interpreting this in ways that I might not even be able to predict. And then I'm gonna get an intune it and that's when I get super, super specific."
+**Attribution**: Hilary Gridley
 **What this source adds**: Gridley uses this in the context of building a "Deck Doctor" GPT — after AI reverse-engineers her implicit slide evaluation criteria from before/after examples, "be 100x more specific" is the refinement step that makes those criteria actionable enough to power a custom evaluator. She notes this technique is "broadly applicable beyond slide evaluation."
 **Links**: [Original](https://www.chatprd.ai/how-i-ai/scaling-yourself-as-a-manager-with-custom-gpts) | [[2026-02-07-hilary-gridley-scaling-yourself-custom-gpts|Archive]]
 

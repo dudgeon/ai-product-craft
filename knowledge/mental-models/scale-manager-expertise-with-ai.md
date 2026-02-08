@@ -2,10 +2,12 @@
 created: 2026-02-07
 updated: 2026-02-07
 template: templates/knowledge-entry.md
-template_version: 1
+template_version: 2
 tags: [knowledge, ai-pm-craft, mental-model, management, leverage]
 status: draft
 entry_type: mental-model
+origin: sourced
+featured: false
 domain: professional-development
 project: ai-pm-craft
 ---
@@ -33,6 +35,7 @@ This reframes the question from "can AI do my job?" to "which parts of my job ar
 
 ### From: [[2026-02-07-hilary-gridley-scaling-yourself-custom-gpts]]
 **Key quote**: "The goal isn't to replace managers but to give them superpowers — automating repetitive feedback so you can spend time on deep strategic thinking and personal mentorship."
+**Attribution**: Hilary Gridley
 **What this source adds**: Gridley demonstrates this model concretely through two workflows — a "Deck Doctor" GPT for slide evaluation and an AI writing coach. Both follow the same pattern: encode your standards into a reusable tool, deploy it to your team, and reclaim time for high-leverage work. The Custom GPT approach means the encoded expertise is shareable, not just a prompt in one person's chat history.
 **Links**: [Original](https://www.chatprd.ai/how-i-ai/scaling-yourself-as-a-manager-with-custom-gpts) | [[2026-02-07-hilary-gridley-scaling-yourself-custom-gpts|Archive]]
 
