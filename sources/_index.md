@@ -40,7 +40,7 @@ Master index of all source material. Sortable by status, type, author, and date.
 | processed | [2026-02-07 Ryan Carson Structured AI Development](2026-02-07-ryan-carson-structured-ai-development.md) | Claire Vo (Ryan Carson) | article | 2026-02-07 | [Interactive PRD Writing](../knowledge-base/product-lifecycle/build/interactive-prd-writing.md), [Task List Generation for Observability](../knowledge-base/product-lifecycle/build/task-list-generation-for-observability.md), [Stepwise Task Execution](../knowledge-base/horizontal/stepwise-task-execution.md), [Context First Development](../knowledge-base/product-lifecycle/build/context-first-development.md), [Deliberate Context Selection](../knowledge-base/horizontal/deliberate-context-selection.md) |
 | processed | [2026-02-07 Hilary Gridley Scaling Yourself Custom GPTs](2026-02-07-hilary-gridley-scaling-yourself-custom-gpts.md) | Claire Vo (Hilary Gridley) | article | 2026-02-07 | [Reverse Engineer Judgment Into AI](../knowledge-base/ai-adoption/reverse-engineer-judgment-into-ai.md), [Be 100x More Specific](../knowledge-base/horizontal/be-100x-more-specific.md), [My Job Your Job Role Delineation](../knowledge-base/horizontal/my-job-your-job-role-delineation.md), [AI as Writing Coach](../knowledge-base/horizontal/ai-as-writing-coach.md), [Scale Manager Expertise With AI](../knowledge-base/ai-adoption/scale-manager-expertise-with-ai.md) |
 | unread | [2026-02-08 USIDO Framework AI Product Management](2026-02-08-usido-framework-ai-product-management.md) | Curtis Savage | article | 2026-02-08 | — |
-| unread | [2026-02-08 How AI Will Impact Product Management](2026-02-08-how-ai-will-impact-product-management.md) | Lenny Rachitsky | newsletter | 2026-02-08 | — |
+| processed | [2026-02-08 How AI Will Impact Product Management](2026-02-08-how-ai-will-impact-product-management.md) | Lenny Rachitsky | newsletter | 2026-02-08 | [AI Disrupts Strategic PM Skills Most](../knowledge-base/ai-adoption/ai-disrupts-strategic-pm-skills-most.md), [Shape/Ship/Sync PM Work Model](../knowledge-base/horizontal/shape-ship-sync-pm-work-model.md) |
 | unread | [2026-02-08 Marily Nika PM AI Toolkit](2026-02-08-marily-nika-pm-ai-toolkit.md) | Claire Vo (Marily Nika) | article | 2026-02-08 | — |
 | unread | [2026-02-08 Marily Nika AI Tool Stack](2026-02-08-marily-nika-ai-tool-stack.md) | Aakash Gupta (Marily Nika) | newsletter | 2026-02-08 | — |
 | unread | [2026-02-08 AI Augmented Product Development Cycle](2026-02-08-ai-augmented-product-development-cycle.md) | Ashay Satav | article | 2026-02-08 | — |
@@ -63,7 +63,6 @@ Master index of all source material. Sortable by status, type, author, and date.
 - [2026-02-07 Zapier Workflows CRM Automation Meeting Prep](2026-02-07-zapier-workflows-crm-automation-meeting-prep.md) — Zapier MCP workflows for CRM automation, meeting prep, and self-improving customer feedback systems (ChatPRD)
 - [2026-02-07 Iterative Workflow Refinement With AI Agents](2026-02-07-iterative-workflow-refinement-with-ai-agents.md) — Organic draft: iterative refinement of AI agent skill files through three rounds of feedback (Dudgeon & Claude)
 - [2026-02-08 USIDO Framework AI Product Management](2026-02-08-usido-framework-ai-product-management.md) — U.S.I.D.O. Framework (Understand, Strategize, Ideate, Define, Optimize) mapping AI across the product lifecycle, with companion Custom GPTs (Medium)
-- [2026-02-08 How AI Will Impact Product Management](2026-02-08-how-ai-will-impact-product-management.md) — AI disrupts strategic PM skills most (strategy, soft skills least); Shape/Ship/Sync framework with disruption ratings (Lenny's Newsletter)
 - [2026-02-08 Marily Nika PM AI Toolkit](2026-02-08-marily-nika-pm-ai-toolkit.md) — Google AI PM demos end-to-end workflow: Perplexity, custom GPT PRD, v0.dev prototype, Flow/Sora video in 20 min; workflow inversion — prototype before PRD (How I AI / Lenny's)
 - [2026-02-08 Marily Nika AI Tool Stack](2026-02-08-marily-nika-ai-tool-stack.md) — Six-tool AI PM stack: AI Studio, Opal, NotebookLM, Perplexity, ChatGPT, Fireflies; "be like a crab" career advice (Aakash Gupta)
 - [2026-02-08 AI Augmented Product Development Cycle](2026-02-08-ai-augmented-product-development-cycle.md) — Maps AI tools across full product dev cycle: ideation, research, MVP, dev, launch, post-launch optimization (Product-Led Alliance)
@@ -83,15 +82,16 @@ Master index of all source material. Sortable by status, type, author, and date.
 ### Processed
 - [2026-02-07 Ryan Carson Structured AI Development](2026-02-07-ryan-carson-structured-ai-development.md) — Three-file system for PRD, tasks, execution in Cursor, plus MCP automation and Repo Prompt (ChatPRD) → [Interactive PRD Writing](../knowledge-base/product-lifecycle/build/interactive-prd-writing.md), [Task List Generation for Observability](../knowledge-base/product-lifecycle/build/task-list-generation-for-observability.md), [Stepwise Task Execution](../knowledge-base/horizontal/stepwise-task-execution.md), [Context First Development](../knowledge-base/product-lifecycle/build/context-first-development.md), [Deliberate Context Selection](../knowledge-base/horizontal/deliberate-context-selection.md)
 - [2026-02-07 Hilary Gridley Scaling Yourself Custom GPTs](2026-02-07-hilary-gridley-scaling-yourself-custom-gpts.md) — Building custom GPTs that clone your expert judgment for slide evaluation and writing coaching (ChatPRD) → [Reverse Engineer Judgment Into AI](../knowledge-base/ai-adoption/reverse-engineer-judgment-into-ai.md), [Be 100x More Specific](../knowledge-base/horizontal/be-100x-more-specific.md), [My Job Your Job Role Delineation](../knowledge-base/horizontal/my-job-your-job-role-delineation.md), [AI as Writing Coach](../knowledge-base/horizontal/ai-as-writing-coach.md), [Scale Manager Expertise With AI](../knowledge-base/ai-adoption/scale-manager-expertise-with-ai.md)
+- [2026-02-08 How AI Will Impact Product Management](2026-02-08-how-ai-will-impact-product-management.md) — AI disrupts strategic PM skills most; Shape/Ship/Sync three-job model with disruption ratings (Lenny's Newsletter) → [AI Disrupts Strategic PM Skills Most](../knowledge-base/ai-adoption/ai-disrupts-strategic-pm-skills-most.md), [Shape/Ship/Sync PM Work Model](../knowledge-base/horizontal/shape-ship-sync-pm-work-model.md)
 
 ---
 
 ## Stats
 
 - **Total sources**: 21
-- **Unread**: 17
+- **Unread**: 16
 - **Read (awaiting processing)**: 2
-- **Processed**: 2
-- **Knowledge entries generated**: 10
+- **Processed**: 3
+- **Knowledge entries generated**: 12
 
 *Updated: 2026-02-08*

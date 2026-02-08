@@ -75,6 +75,7 @@ Patterns that cut across the product lifecycle — prompting techniques, writing
 - [Deliberate Context Selection](horizontal/deliberate-context-selection.md) — Hand-picking files for LLM context vs. relying on automatic context
 - [AI as Writing Coach](horizontal/ai-as-writing-coach.md) — Structured workflow: thesis validation → blind spots → restructuring
 - [Stepwise Task Execution](horizontal/stepwise-task-execution.md) — One-task-at-a-time execution with pause-and-approve checkpoints
+- [Shape/Ship/Sync PM Work Model](horizontal/shape-ship-sync-pm-work-model.md) — Three-job framework for PM work with AI disruption ratings per sub-task
 
 ## AI Adoption & Change Management
 
@@ -82,6 +83,7 @@ How organizations and individuals adapt to AI-native ways of working — scaling
 
 - [Reverse Engineer Judgment Into AI](ai-adoption/reverse-engineer-judgment-into-ai.md) — Have AI discover your implicit criteria, encode into reusable evaluator
 - [Scale Manager Expertise With AI](ai-adoption/scale-manager-expertise-with-ai.md) — Automate "0-to-60%" feedback so managers focus on high-leverage work
+- [AI Disrupts Strategic PM Skills Most](ai-adoption/ai-disrupts-strategic-pm-skills-most.md) — Counterintuitively, AI most disrupts high-level strategic PM skills, not soft skills
 
 ---
 
