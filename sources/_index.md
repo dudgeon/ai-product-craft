@@ -49,6 +49,7 @@ Master index of all source material. Sortable by status, type, author, and date.
 | unread | [2026-02-08 Claire Vo How I AI Podcast Launch](2026-02-08-claire-vo-how-i-ai-podcast-launch.md) | Claire Vo | article | 2026-02-08 | — |
 | unread | [2026-02-08 Claire Vo Idea to Product 30 Min](2026-02-08-claire-vo-idea-to-product-30-min.md) | Peter Yang (Claire Vo) | article | 2026-02-08 | — |
 | unread | [2026-02-08 Beyond the Pillars AI Digital Products](2026-02-08-beyond-the-pillars-ai-digital-products.md) | David Gopp | article | 2026-02-08 | — |
+| unread | [2026-02-09 Managing Agents New Horizontal Domain](2026-02-09-managing-agents-new-horizontal-domain.md) | Geoff Dudgeon | note | 2026-02-09 | — |
 
 ---
 
@@ -71,6 +72,7 @@ Master index of all source material. Sortable by status, type, author, and date.
 - [2026-02-08 Claire Vo How I AI Podcast Launch](2026-02-08-claire-vo-how-i-ai-podcast-launch.md) — Announcement post for How I AI podcast on Lenny's network; thin on extractable knowledge (ChatPRD Blog)
 - [2026-02-08 Claire Vo Idea to Product 30 Min](2026-02-08-claire-vo-idea-to-product-30-min.md) — PRD, Devin (AI coding agent) async delegation; replaced Cursor with Devin for async workflow; future-proof PM competencies (Creator Economy)
 - [2026-02-08 Beyond the Pillars AI Digital Products](2026-02-08-beyond-the-pillars-ai-digital-products.md) — Academic research synthesis on agentic systems, full-lifecycle orchestration, AI-first PM frameworks (Medium)
+- [2026-02-09 Managing Agents New Horizontal Domain](2026-02-09-managing-agents-new-horizontal-domain.md) — Identifies "Managing Agents" as a nascent horizontal skill domain — agent selection, onboarding, performance retros, context management (note)
 
 ### Reading
 *None yet.*
@@ -88,8 +90,8 @@ Master index of all source material. Sortable by status, type, author, and date.
 
 ## Stats
 
-- **Total sources**: 21
-- **Unread**: 16
+- **Total sources**: 22
+- **Unread**: 17
 - **Read (awaiting processing)**: 2
 - **Processed**: 3
 - **Knowledge entries generated**: 12
