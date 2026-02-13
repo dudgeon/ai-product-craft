@@ -28,7 +28,7 @@ Source material is the raw input — articles, podcasts, newsletters, and organi
 
 **Pipeline**: `unread` → `reading` → `read` → `processed`
 
-Browse all sources and their status in the [Source Registry](sources/_index.md).
+Browse all sources and their status in the [Source Registry](sources/), or jump to [unread sources](sources/#unread).
 
 ## Knowledge Base
 

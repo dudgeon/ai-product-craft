@@ -47,4 +47,4 @@ Key areas identified:
 
 ---
 
-[← Back to Source Registry](\_index.md)
+[← Back to Source Registry](README.md)
