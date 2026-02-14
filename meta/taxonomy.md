@@ -1,6 +1,6 @@
 ---
 created: 2026-02-08
-updated: 2026-02-13
+updated: 2026-02-14
 tags: [meta, ai-pm, taxonomy]
 status: active
 ---
@@ -13,21 +13,23 @@ For full phase lineage, component descriptions, and AI-PM emphasis, see [Lifecyc
 
 ---
 
-## Three Domains
+## Four Domains
 
 Every knowledge entry belongs to exactly one domain.
 
 | Domain | Folder | What belongs here |
 |---|---|---|
 | **Product Lifecycle** | `knowledge-base/product-lifecycle/{phase}/` | Techniques and insights that augment a specific stage of building product |
-| **Horizontal** | `knowledge-base/horizontal/{horizontal_domain}/` | Knowledge areas and practices that cut across the lifecycle — see Horizontal Domains below |
-| **AI Adoption** | `knowledge-base/ai-adoption/` | How organizations and individuals adapt to AI-native ways of working — scaling expertise, org change, driving adoption |
+| **Horizontal** | `knowledge-base/horizontal/{horizontal_domain}/` | Lifecycle-agnostic AI PM skills and knowledge areas — see Horizontal Domains below |
+| **AI Adoption & Change Management** | `knowledge-base/ai-adoption/` | How organizations and individuals adapt to AI-native ways of working — scaling expertise, org change, driving adoption |
+| **Software Methodology Evolution** | `knowledge-base/software-methodology/` | How AI changes the way software gets built — compound engineering, spec-driven development, vibe coding, evolving delivery paradigms |
 
 ### Classification test
 
 1. **Does this technique augment a specific lifecycle phase?** → Product Lifecycle (file under the phase)
-2. **Is it a cross-cutting skill, methodology, or knowledge area?** → Horizontal (then determine which horizontal domain — see below)
-3. **Is it about bringing others along or changing how teams/orgs work?** → AI Adoption
+2. **Is it a lifecycle-agnostic AI PM skill or knowledge area?** → Horizontal (then determine which horizontal domain — see below)
+3. **Is it about bringing others along or changing how teams/orgs work?** → AI Adoption & Change Management
+4. **Is it about how AI fundamentally changes software delivery methodologies?** → Software Methodology Evolution
 
 ---
 
@@ -37,17 +39,17 @@ The horizontal domain is organized as a stack by delivery mechanism, with increa
 
 | Horizontal Domain | Slug | Folder | What belongs here |
 |---|---|---|---|
-| **Context** | `context` | `horizontal/context/` | Knowledge infrastructure: making non-code knowledge discoverable and usable to agents and their human coworkers — context graphs, agent-oriented KM, progressive disclosure, knowledge discoverability. |
-| **Prompting** | `prompting` | `horizontal/prompting/` | Portable techniques for crafting effective instructions — works in any chat window. Prompting patterns, writing workflows, role delineation, refinement techniques. |
-| **Gems & GPTs** | `gems-and-gpts` | `horizontal/gems-and-gpts/` | Packaged, shareable, non-agentic AI tools (Custom GPTs, Google Gems). Building, distributing, and managing for teams and organizations. Key differentiator: distributable. |
-| **Agents** | `agents` | `horizontal/agents/` | Filesystem-paired, autonomous agents — lifecycle management, rules, skills, templates. How PMs select, onboard, train, give feedback to, and performance-manage AI agents. |
+| **Prompting** | `prompting` | `horizontal/prompting/` | Portable techniques for crafting effective instructions — works in any chat window. Prompting patterns, meta-skill patterns, writing workflows, role delineation, refinement techniques. |
+| **Context & Knowledge Management** | `context` | `horizontal/context/` | Knowledge infrastructure: making non-code knowledge discoverable and usable to agents and their human coworkers — context graphs, agent-oriented KM, progressive disclosure, knowledge discoverability. |
+| **Templated AI Runtimes** | `runtimes` | `horizontal/runtimes/` | Packaged, shareable, non-agentic AI tools (Custom GPTs, Google Gems, Claude Projects). Building, distributing, and managing templated AI runtimes for teams and organizations. |
+| **Agents** | `agents` | `horizontal/agents/` | Building and managing knowledge agents — lifecycle management, rules, skills, templates, tools, workflows. How PMs select, onboard, train, give feedback to, and performance-manage AI agents. |
 
 ### Horizontal classification test
 
-1. **Is it about making knowledge discoverable and usable?** → Context
-2. **Is it a portable prompting technique (works in any chat window)?** → Prompting
-3. **Is it about packaged, shareable, non-agentic AI tools?** → Gems & GPTs
-4. **Is it about autonomous, filesystem-paired agents?** → Agents
+1. **Is it a portable prompting technique (works in any chat window)?** → Prompting
+2. **Is it about making knowledge discoverable and usable?** → Context & Knowledge Management
+3. **Is it about packaged, shareable, non-agentic AI tools?** → Templated AI Runtimes
+4. **Is it about building and managing knowledge agents?** → Agents
 
 ### Dual attribution
 
@@ -158,14 +160,14 @@ Knowledge entry frontmatter fields for taxonomy:
 ```yaml
 # Required
 entry_type: technique | mental-model | insight
-domain: product-lifecycle | horizontal | ai-adoption
+domain: product-lifecycle | horizontal | ai-adoption | software-methodology
 
 # Required for product-lifecycle entries
 lifecycle_phase: discover | frame | shape | build | release | measure
 component: <component-slug from tables above>
 
 # Required for horizontal entries
-horizontal_domain: context | prompting | gems-and-gpts | agents
+horizontal_domain: prompting | context | runtimes | agents
 
 # Optional for horizontal entries (dual attribution)
 lifecycle_phase: discover | frame | shape | build | release | measure  # when the entry has a primary phase connection
@@ -182,7 +184,7 @@ featured: true  # Worth championing organizationally
 2. **Phase-level is OK.** If an entry fits a phase but not a specific component, omit the `component` field and file it in the phase folder.
 3. **Cross-phase entries go horizontal.** If an entry applies across 3+ phases, it's probably a horizontal entry. Determine which horizontal domain fits best.
 4. **Horizontal domain entries can reference lifecycle phases.** Use `lifecycle_phase` in frontmatter to record the primary phase connection when one exists. Use the Related section to cross-reference entries in other domains.
-5. **Match to delivery mechanism.** A portable prompting technique → Prompting. Knowledge infrastructure → Context. A packaged, shareable tool → Gems & GPTs. Autonomous agent management → Agents.
+5. **Match to delivery mechanism.** A portable prompting technique → Prompting. Knowledge infrastructure → Context. A packaged, shareable tool → Templated AI Runtimes. Autonomous agent management → Agents.
 6. **When in doubt, ask.** Don't force-fit entries into the taxonomy. Flag uncertain placements for review.
 7. **Screen for adoption.** Sources often embed change management insights alongside craft techniques. Extract these separately into ai-adoption.
 8. **Screen for horizontal domain insights.** Sources about delivery workflows may contain agent management insights or knowledge management patterns. Extract these into the appropriate horizontal domain.

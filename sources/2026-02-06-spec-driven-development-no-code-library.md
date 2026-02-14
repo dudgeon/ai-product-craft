@@ -1,11 +1,11 @@
 ---
 title: "A Software Library with No Code"
 created: 2026-02-06
-updated: 2026-02-07
+updated: 2026-02-14
 template: templates/source.md
 template_version: 2
 tags: [source, ai-pm, spec-driven-development, ai-coding]
-status: read
+status: processed
 source_type: article
 source_url: "https://www.dbreunig.com/2026/01/08/a-software-library-with-no-code.html"
 archive_url: "domains/professional-development/ai-pm/sources/2026-02-06-spec-driven-development-no-code-library.md"
@@ -29,7 +29,7 @@ Breunig's `whenwords` is a thought experiment: what if libraries shipped only sp
 
 ## Key Ideas Extracted
 
-*Fill during processing. Each idea links to a knowledge entry.*
+- [Spec-Driven Development](../knowledge-base/software-methodology/spec-driven-development.md) — When specs + tests can replace code; the utility-vs-foundation classification spectrum
 
 ## Notes
 

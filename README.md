@@ -1,6 +1,6 @@
 ---
 created: 2026-02-05
-updated: 2026-02-13
+updated: 2026-02-14
 tags: [project, ai-pm, product-management, learning]
 status: active
 domain: professional-development
@@ -25,12 +25,13 @@ ai-pm/
 │   │   ├── build/                       How do we ship with clarity?
 │   │   ├── release/                     How do we put this into the world?
 │   │   └── measure/                     Did it work, and what's next?
-│   ├── horizontal/                      Cross-cutting knowledge areas (stack by delivery mechanism)
-│   │   ├── context/                     Knowledge infrastructure (discoverability, KM)
+│   ├── horizontal/                      Lifecycle-agnostic AI PM skills (stack by delivery mechanism)
 │   │   ├── prompting/                   Portable techniques (any chat window)
-│   │   ├── gems-and-gpts/              Packaged, shareable AI tools (GPTs, Gems)
-│   │   └── agents/                      Autonomous AI participants (lifecycle, skills)
-│   └── ai-adoption/                     Org change and adoption
+│   │   ├── context/                     Knowledge infrastructure (discoverability, KM)
+│   │   ├── runtimes/                    Templated AI runtimes (GPTs, Gems, Claude Projects)
+│   │   └── agents/                      Building & managing knowledge agents
+│   ├── ai-adoption/                     Org change and adoption
+│   └── software-methodology/            How AI changes software delivery paradigms
 └── meta/              Project ontology, taxonomy, and lifecycle framework
 ```
 
@@ -59,7 +60,7 @@ Classification rules, lifecycle framework, and entry templates live in `meta/`. 
 
 ## Status
 
-Early stage. 27 sources captured, 4 fully processed into 15 knowledge entries (all draft). 19 unread sources in the queue. Entries span Build, Shape, Context, Prompting, Agents, and AI Adoption. Gems & GPTs layer awaiting source processing to populate.
+Early stage. 31 sources captured, 8 fully processed into 25 knowledge entries. 19 unread sources in the queue. Entries span Build, Shape, Context, Prompting, Agents, and AI Adoption. Templated AI Runtimes and Software Methodology Evolution domains awaiting source processing to populate.
 
 ---
 

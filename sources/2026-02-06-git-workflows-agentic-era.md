@@ -1,11 +1,11 @@
 ---
 title: "Git Workflows for the Agentic Era: Sharing Context Across Repository Boundaries"
 created: 2026-02-06
-updated: 2026-02-07
+updated: 2026-02-14
 template: templates/source.md
 template_version: 2
 tags: [source, ai-pm, organic]
-status: read
+status: processed
 source_type: article
 source_url: ""
 archive_url: "domains/professional-development/ai-pm/sources/2026-02-06-git-workflows-agentic-era.md"
@@ -29,7 +29,7 @@ Repository boundaries are shifting from code isolation to context boundaries. Gi
 
 ## Key Ideas Extracted
 
-*Fill during processing. Each idea links to a knowledge entry.*
+- [Repositories as Context Boundaries](../knowledge-base/horizontal/context/repositories-as-context-boundaries.md) — Repos shift from code isolation to context containers; git subtree/submodules as context distribution; agent ceremony absorption
 
 ## Notes
 

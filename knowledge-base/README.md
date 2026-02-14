@@ -71,9 +71,17 @@ Components: KPI & Outcome Monitoring · Customer Feedback Collection · Experime
 
 ## Horizontal Domains
 
-Knowledge areas that cut across the product lifecycle, organized by delivery mechanism with increasing capability and autonomy. See [taxonomy](../meta/taxonomy.md#horizontal-domains) for classification rules.
+Lifecycle-agnostic AI PM skills and knowledge areas, organized by delivery mechanism with increasing capability and autonomy. See [taxonomy](../meta/taxonomy.md#horizontal-domains) for classification rules.
 
-### [Context](horizontal/context/) — Knowledge Infrastructure
+### [Prompting](horizontal/prompting/) — Portable Techniques
+
+Portable techniques for crafting effective instructions — works in any chat window. Prompting patterns, meta-skill patterns, writing workflows, role delineation.
+
+- [Be 100x More Specific](horizontal/prompting/be-100x-more-specific.md) — Forces AI past vague principles into concrete, actionable standards
+- [My Job Your Job Role Delineation](horizontal/prompting/my-job-your-job-role-delineation.md) — Explicit human/AI responsibility partitioning
+- [AI as Writing Coach](horizontal/prompting/ai-as-writing-coach.md) — Structured workflow: thesis validation → blind spots → restructuring
+
+### [Context & Knowledge Management](horizontal/context/) — Knowledge Infrastructure
 
 Making non-code knowledge discoverable and usable to agents and their human coworkers — context graphs, agent-oriented knowledge management, progressive disclosure.
 
@@ -81,24 +89,17 @@ Making non-code knowledge discoverable and usable to agents and their human cowo
 - [Sync the People — AI Disruption Profile](horizontal/context/sync-the-people-ai-disruption.md) — Human coordination and alignment; least disrupted PM job (🤖), a durable competitive advantage
 - [Three-Layer Context Disclosure](horizontal/context/three-layer-context-disclosure.md) — Index → summary → full content: the converging pattern for efficient agent retrieval (~10x token savings)
 - [Filesystem as Retrieval Architecture](horizontal/context/filesystem-as-retrieval-architecture.md) — Directory hierarchy as index, frontmatter as metadata, git as temporal layer — a legitimate retrieval system, not a stopgap
+- [Repositories as Context Boundaries](horizontal/context/repositories-as-context-boundaries.md) — Repos shift from code isolation to context containers; git subtree/submodules as cross-repo context distribution; agents absorb submodule ceremony
 
-### [Prompting](horizontal/prompting/) — Portable Techniques
+### [Templated AI Runtimes](horizontal/runtimes/) — Packaged AI Tools
 
-Portable techniques for crafting effective instructions — works in any chat window. Prompting patterns, writing workflows, role delineation.
-
-- [Be 100x More Specific](horizontal/prompting/be-100x-more-specific.md) — Forces AI past vague principles into concrete, actionable standards
-- [My Job Your Job Role Delineation](horizontal/prompting/my-job-your-job-role-delineation.md) — Explicit human/AI responsibility partitioning
-- [AI as Writing Coach](horizontal/prompting/ai-as-writing-coach.md) — Structured workflow: thesis validation → blind spots → restructuring
-
-### [Gems & GPTs](horizontal/gems-and-gpts/) — Packaged AI Tools
-
-Packaged, shareable, non-agentic AI tools (Custom GPTs, Google Gems). Building and distributing for teams and organizations.
+Packaged, shareable, non-agentic AI tools (Custom GPTs, Google Gems, Claude Projects). Building, distributing, and managing templated AI runtimes for teams and organizations.
 
 *No entries yet.*
 
-### [Agents](horizontal/agents/) — Autonomous AI Participants
+### [Agents](horizontal/agents/) — Building & Managing Knowledge Agents
 
-Filesystem-paired, autonomous agents — lifecycle management, rules, skills, templates. How PMs select, onboard, train, and performance-manage AI agents.
+Building and managing knowledge agents — lifecycle management, rules, skills, templates, tools, workflows. How PMs select, onboard, train, and performance-manage AI agents.
 
 - [Stepwise Task Execution](horizontal/agents/stepwise-task-execution.md) — One-task-at-a-time execution with pause-and-approve checkpoints
 - [Meta-Skill Pattern](horizontal/agents/meta-skill-pattern.md) — Build a "skill that builds skills" to bootstrap agent capabilities consistently
@@ -118,6 +119,14 @@ How organizations and individuals adapt to AI-native ways of working — scaling
 - [Data Silos Block Enterprise Agent Adoption](ai-adoption/data-silos-block-agent-adoption.md) — Enterprise data fragmented across SaaS tools is the primary barrier to agent rollout, not model capability
 - [Tool Identity as Adoption Gate](ai-adoption/tool-identity-as-adoption-gate.md) — When a capable AI tool has narrow adoption, the bottleneck may be naming/branding/positioning, not capability
 - [Retrieval Infrastructure Graduation](ai-adoption/retrieval-infrastructure-graduation.md) — Tiered path from filesystem-only → semantic search → knowledge graph, with graduation criteria for each transition
+
+---
+
+## Software Methodology Evolution
+
+How AI fundamentally changes the way software gets built — compound engineering, spec-driven development, vibe coding, evolving delivery paradigms.
+
+- [Spec-Driven Development](software-methodology/spec-driven-development.md) — Software ships as specs + tests with zero code; works for stable utilities, breaks for anything needing performance, debugging, community, or security patching
 
 ---
 
