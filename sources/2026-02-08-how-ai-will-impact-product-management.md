@@ -32,7 +32,7 @@ Rachitsky challenges conventional wisdom about which PM skills AI will disrupt, 
 - [AI Disrupts Strategic PM Skills Most](../knowledge-base/ai-adoption/ai-disrupts-strategic-pm-skills-most.md) — The counterintuitive insight that AI disrupts high-level strategic PM skills most, not soft skills
 - [Shape the Product](../knowledge-base/product-lifecycle/shape/shape-the-product-ai-disruption.md) — Shape: determining what to build (🤖🤖🤖) — product-lifecycle/shape
 - [Ship the Product](../knowledge-base/product-lifecycle/build/ship-the-product-ai-disruption.md) — Ship: helping the team deliver (🤖🤖) — product-lifecycle/build
-- [Sync the People](../knowledge-base/horizontal/practices/sync-the-people-ai-disruption.md) — Sync: human coordination and alignment (🤖) — horizontal/practices
+- [Sync the People](../knowledge-base/horizontal/context/sync-the-people-ai-disruption.md) — Sync: human coordination and alignment (🤖) — horizontal/context
 
 ## Notes
 

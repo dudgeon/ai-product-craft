@@ -9,7 +9,7 @@ entry_type: mental-model
 origin: sourced
 featured: false
 domain: horizontal
-horizontal_domain: practices
+horizontal_domain: context
 project: ai-pm-craft
 ---
 
@@ -36,4 +36,4 @@ project: ai-pm-craft
 
 - [Shape the Product](../../product-lifecycle/shape/shape-the-product-ai-disruption.md) — The strategy counterpart (🤖🤖🤖)
 - [Ship the Product](../../product-lifecycle/build/ship-the-product-ai-disruption.md) — The execution counterpart (🤖🤖)
-- [My Job Your Job Role Delineation](my-job-your-job-role-delineation.md) — Relevant technique for defining human vs AI boundaries in Sync work
+- [My Job Your Job Role Delineation](../prompting/my-job-your-job-role-delineation.md) — Relevant technique for defining human vs AI boundaries in Sync work

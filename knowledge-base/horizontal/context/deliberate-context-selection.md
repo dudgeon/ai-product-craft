@@ -9,7 +9,7 @@ entry_type: technique
 origin: sourced
 featured: false
 domain: horizontal
-horizontal_domain: practices
+horizontal_domain: context
 project: ai-pm-craft
 ---
 
@@ -44,4 +44,4 @@ When working with LLMs on complex tasks (architectural reviews, tricky refactors
 
 - [Context First Development](../product-lifecycle/build/context-first-development.md)
 - [Interactive PRD Writing](../product-lifecycle/build/interactive-prd-writing.md)
-- [Be 100x More Specific](be-100x-more-specific.md)
+- [Be 100x More Specific](../prompting/be-100x-more-specific.md)

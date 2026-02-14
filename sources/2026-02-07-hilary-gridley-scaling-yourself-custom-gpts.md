@@ -32,9 +32,9 @@ Hilary Gridley demonstrates two ways to scale managerial expertise through AI. F
 ## Key Ideas Extracted
 
 - **[Reverse Engineer Judgment Into AI](../knowledge-base/ai-adoption/reverse-engineer-judgment-into-ai.md)**: Collect before/after examples, have AI discover your implicit criteria, then encode into a reusable custom GPT
-- **[Be 100x More Specific](../knowledge-base/horizontal/be-100x-more-specific.md)**: Prompting technique that forces AI past vague principles into concrete, actionable standards — broadly applicable beyond the slide evaluation use case
-- **[My Job Your Job Role Delineation](../knowledge-base/horizontal/my-job-your-job-role-delineation.md)**: Explicit partitioning of human/AI responsibility in a prompt ("MY job is X, YOUR job is Y") — scopes AI authority, sets output format, preserves human agency
-- **[AI as Writing Coach](../knowledge-base/horizontal/ai-as-writing-coach.md)**: Structured workflow for using AI to sharpen written communication — thesis validation, blind spot detection, restructuring — where the human always writes the final version
+- **[Be 100x More Specific](../knowledge-base/horizontal/prompting/be-100x-more-specific.md)**: Prompting technique that forces AI past vague principles into concrete, actionable standards — broadly applicable beyond the slide evaluation use case
+- **[My Job Your Job Role Delineation](../knowledge-base/horizontal/prompting/my-job-your-job-role-delineation.md)**: Explicit partitioning of human/AI responsibility in a prompt ("MY job is X, YOUR job is Y") — scopes AI authority, sets output format, preserves human agency
+- **[AI as Writing Coach](../knowledge-base/horizontal/prompting/ai-as-writing-coach.md)**: Structured workflow for using AI to sharpen written communication — thesis validation, blind spot detection, restructuring — where the human always writes the final version
 - **[Scale Manager Expertise With AI](../knowledge-base/ai-adoption/scale-manager-expertise-with-ai.md)**: Automate the "0-to-60%" repetitive feedback (slide reviews, writing coaching) so managers can focus on deep strategic thinking and personal mentorship
 
 ## Notes

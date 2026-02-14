@@ -47,5 +47,5 @@ project: ai-pm-craft
 
 - [AI Disrupts Strategic PM Skills Most](../../ai-adoption/ai-disrupts-strategic-pm-skills-most.md) — The key insight from analyzing Shape's disruption ratings
 - [Ship the Product](../build/ship-the-product-ai-disruption.md) — The execution counterpart (🤖🤖)
-- [Sync the People](../../horizontal/practices/sync-the-people-ai-disruption.md) — The coordination counterpart (🤖)
+- [Sync the People](../../horizontal/context/sync-the-people-ai-disruption.md) — The coordination counterpart (🤖)
 - [Interactive PRD Writing](../build/interactive-prd-writing.md) — A technique for one of Shape's 🤖🤖🤖 sub-tasks (creating specs)

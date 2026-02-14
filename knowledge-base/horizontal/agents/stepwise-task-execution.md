@@ -9,7 +9,7 @@ entry_type: technique
 origin: sourced
 featured: false
 domain: horizontal
-horizontal_domain: practices
+horizontal_domain: agents
 project: ai-pm-craft
 ---
 

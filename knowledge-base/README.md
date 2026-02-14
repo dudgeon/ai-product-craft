@@ -69,34 +69,34 @@ Components: KPI & Outcome Monitoring · Customer Feedback Collection · Experime
 
 ## Horizontal Domains
 
-Knowledge areas and practices that cut across the product lifecycle. Each horizontal domain has its own depth and internal structure — see [taxonomy](../meta/taxonomy.md#horizontal-domains) for classification rules.
+Knowledge areas that cut across the product lifecycle, organized by delivery mechanism with increasing capability and autonomy. See [taxonomy](../meta/taxonomy.md#horizontal-domains) for classification rules.
 
-### [Practices](horizontal/practices/) — Portable Techniques
+### [Context](horizontal/context/) — Knowledge Infrastructure
 
-Atomic techniques applicable across 3+ lifecycle phases — prompting patterns, writing workflows, context engineering, human-AI collaboration patterns.
+Making non-code knowledge discoverable and usable to agents and their human coworkers — context graphs, agent-oriented knowledge management, progressive disclosure.
 
-- [Be 100x More Specific](horizontal/practices/be-100x-more-specific.md) — Forces AI past vague principles into concrete, actionable standards
-- [My Job Your Job Role Delineation](horizontal/practices/my-job-your-job-role-delineation.md) — Explicit human/AI responsibility partitioning
-- [Deliberate Context Selection](horizontal/practices/deliberate-context-selection.md) — Hand-picking files for LLM context vs. relying on automatic context
-- [AI as Writing Coach](horizontal/practices/ai-as-writing-coach.md) — Structured workflow: thesis validation → blind spots → restructuring
-- [Stepwise Task Execution](horizontal/practices/stepwise-task-execution.md) — One-task-at-a-time execution with pause-and-approve checkpoints
-- [Sync the People — AI Disruption Profile](horizontal/practices/sync-the-people-ai-disruption.md) — Human coordination and alignment; least disrupted PM job (🤖), a durable competitive advantage
+- [Deliberate Context Selection](horizontal/context/deliberate-context-selection.md) — Hand-picking files for LLM context vs. relying on automatic context
+- [Sync the People — AI Disruption Profile](horizontal/context/sync-the-people-ai-disruption.md) — Human coordination and alignment; least disrupted PM job (🤖), a durable competitive advantage
 
-### [Software Delivery](horizontal/software-delivery/) — Delivery Methodologies
+### [Prompting](horizontal/prompting/) — Portable Techniques
 
-Emerging methodologies for AI-native software delivery — compound engineering, spec-driven development, and how they reshape the PM's role.
+Portable techniques for crafting effective instructions — works in any chat window. Prompting patterns, writing workflows, role delineation.
 
-*No entries yet.*
+- [Be 100x More Specific](horizontal/prompting/be-100x-more-specific.md) — Forces AI past vague principles into concrete, actionable standards
+- [My Job Your Job Role Delineation](horizontal/prompting/my-job-your-job-role-delineation.md) — Explicit human/AI responsibility partitioning
+- [AI as Writing Coach](horizontal/prompting/ai-as-writing-coach.md) — Structured workflow: thesis validation → blind spots → restructuring
 
-### [Agent Lifecycle](horizontal/agent-lifecycle/) — Managing Agents as Participants
+### [Gems & GPTs](horizontal/gems-and-gpts/) — Packaged AI Tools
 
-How PMs select, onboard, train, give feedback to, and performance-manage AI agents across all lifecycle phases.
+Packaged, shareable, non-agentic AI tools (Custom GPTs, Google Gems). Building and distributing for teams and organizations.
 
 *No entries yet.*
 
-### [Knowledge Management](horizontal/knowledge-management/) — Shared Human-Agent Context
+### [Agents](horizontal/agents/) — Autonomous AI Participants
 
-Feeding, curating, and accessing private and public context shared by both humans and agents — knowledge systems as product.
+Filesystem-paired, autonomous agents — lifecycle management, rules, skills, templates. How PMs select, onboard, train, and performance-manage AI agents.
+
+- [Stepwise Task Execution](horizontal/agents/stepwise-task-execution.md) — One-task-at-a-time execution with pause-and-approve checkpoints
 
 ## AI Adoption & Change Management
 

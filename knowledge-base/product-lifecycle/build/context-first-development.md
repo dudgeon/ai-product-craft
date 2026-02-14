@@ -45,5 +45,5 @@ A practical heuristic: write as if you're instructing a "junior developer." This
 
 - [Interactive PRD Writing](interactive-prd-writing.md)
 - [Task List Generation for Observability](task-list-generation-for-observability.md)
-- [Stepwise Task Execution](../../horizontal/practices/stepwise-task-execution.md)
-- [Deliberate Context Selection](../../horizontal/practices/deliberate-context-selection.md)
+- [Stepwise Task Execution](../../horizontal/agents/stepwise-task-execution.md)
+- [Deliberate Context Selection](../../horizontal/context/deliberate-context-selection.md)

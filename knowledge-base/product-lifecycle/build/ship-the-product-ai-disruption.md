@@ -35,5 +35,5 @@ project: ai-pm-craft
 ## Related
 
 - [Shape the Product](../shape/shape-the-product-ai-disruption.md) — The strategy counterpart (🤖🤖🤖)
-- [Sync the People](../../horizontal/practices/sync-the-people-ai-disruption.md) — The coordination counterpart (🤖)
+- [Sync the People](../../horizontal/context/sync-the-people-ai-disruption.md) — The coordination counterpart (🤖)
 - [Task List Generation for Observability](task-list-generation-for-observability.md) — A Ship technique for tracking execution

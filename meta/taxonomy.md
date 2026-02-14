@@ -33,25 +33,25 @@ Every knowledge entry belongs to exactly one domain.
 
 ## Horizontal Domains
 
-The horizontal domain has internal structure. Each horizontal domain is a knowledge area with its own depth — not just a collection of atomic techniques. Entries sit flat in their horizontal domain folder; the `horizontal_domain` frontmatter field records which one.
+The horizontal domain is organized as a stack by delivery mechanism, with increasing capability and autonomy. Each layer is a knowledge area with its own depth. Entries sit flat in their horizontal domain folder; the `horizontal_domain` frontmatter field records which one.
 
 | Horizontal Domain | Slug | Folder | What belongs here |
 |---|---|---|---|
-| **Practices** | `practices` | `horizontal/practices/` | Atomic, portable techniques — prompting patterns, writing workflows, context engineering, human-AI collaboration patterns. Individual methods applicable across 3+ lifecycle phases. |
-| **Software Delivery** | `software-delivery` | `horizontal/software-delivery/` | Emerging delivery methodologies (compound engineering, spec-driven development, vibe coding) — how software gets built in an AI-native world, and how the lifecycle interacts with these approaches. |
-| **Agent Lifecycle** | `agent-lifecycle` | `horizontal/agent-lifecycle/` | How PMs select, onboard, train, give feedback to, and performance-manage AI agents — the talent-management analog for agents as ongoing participants in work. |
-| **Knowledge Management** | `knowledge-management` | `horizontal/knowledge-management/` | Feeding, curating, and accessing private and public context shared by humans and agents — knowledge systems, context engineering strategy, organizational knowledge as product. |
+| **Context** | `context` | `horizontal/context/` | Knowledge infrastructure: making non-code knowledge discoverable and usable to agents and their human coworkers — context graphs, agent-oriented KM, progressive disclosure, knowledge discoverability. |
+| **Prompting** | `prompting` | `horizontal/prompting/` | Portable techniques for crafting effective instructions — works in any chat window. Prompting patterns, writing workflows, role delineation, refinement techniques. |
+| **Gems & GPTs** | `gems-and-gpts` | `horizontal/gems-and-gpts/` | Packaged, shareable, non-agentic AI tools (Custom GPTs, Google Gems). Building, distributing, and managing for teams and organizations. Key differentiator: distributable. |
+| **Agents** | `agents` | `horizontal/agents/` | Filesystem-paired, autonomous agents — lifecycle management, rules, skills, templates. How PMs select, onboard, train, give feedback to, and performance-manage AI agents. |
 
 ### Horizontal classification test
 
-1. **Is it an atomic, portable technique?** → Practices
-2. **Is it about a delivery methodology or how software gets built?** → Software Delivery
-3. **Is it about managing agents as ongoing participants?** → Agent Lifecycle
-4. **Is it about knowledge systems, context curation, or shared knowledge?** → Knowledge Management
+1. **Is it about making knowledge discoverable and usable?** → Context
+2. **Is it a portable prompting technique (works in any chat window)?** → Prompting
+3. **Is it about packaged, shareable, non-agentic AI tools?** → Gems & GPTs
+4. **Is it about autonomous, filesystem-paired agents?** → Agents
 
 ### Dual attribution
 
-Horizontal entries frequently relate to specific lifecycle phases. Use `lifecycle_phase` in frontmatter (optional for horizontal entries) to record the primary phase connection when one exists. An entry about how spec-driven development changes PRD writing would live in Software Delivery with `lifecycle_phase: build` as a cross-reference. **One idea can be attributed to multiple domains** — when an insight genuinely belongs in both a horizontal domain and a lifecycle phase, create the entry where it has the most depth and add cross-references via the Related section.
+Horizontal entries frequently relate to specific lifecycle phases. Use `lifecycle_phase` in frontmatter (optional for horizontal entries) to record the primary phase connection when one exists. An entry about how deliberate context selection improves PRD writing would live in Context with `lifecycle_phase: build` as a cross-reference. **One idea can be attributed to multiple domains** — when an insight genuinely belongs in both a horizontal domain and a lifecycle phase, create the entry where it has the most depth and add cross-references via the Related section.
 
 ---
 
@@ -165,7 +165,7 @@ lifecycle_phase: discover | frame | shape | build | release | measure
 component: <component-slug from tables above>
 
 # Required for horizontal entries
-horizontal_domain: practices | software-delivery | agent-lifecycle | knowledge-management
+horizontal_domain: context | prompting | gems-and-gpts | agents
 
 # Optional for horizontal entries (dual attribution)
 lifecycle_phase: discover | frame | shape | build | release | measure  # when the entry has a primary phase connection
@@ -182,7 +182,7 @@ featured: true  # Worth championing organizationally
 2. **Phase-level is OK.** If an entry fits a phase but not a specific component, omit the `component` field and file it in the phase folder.
 3. **Cross-phase entries go horizontal.** If an entry applies across 3+ phases, it's probably a horizontal entry. Determine which horizontal domain fits best.
 4. **Horizontal domain entries can reference lifecycle phases.** Use `lifecycle_phase` in frontmatter to record the primary phase connection when one exists. Use the Related section to cross-reference entries in other domains.
-5. **Distinguish atomic techniques from domain knowledge.** A single portable technique (prompting pattern, workflow step) → Practices. A methodology, system, or knowledge area requiring study → Software Delivery, Agent Lifecycle, or Knowledge Management.
+5. **Match to delivery mechanism.** A portable prompting technique → Prompting. Knowledge infrastructure → Context. A packaged, shareable tool → Gems & GPTs. Autonomous agent management → Agents.
 6. **When in doubt, ask.** Don't force-fit entries into the taxonomy. Flag uncertain placements for review.
 7. **Screen for adoption.** Sources often embed change management insights alongside craft techniques. Extract these separately into ai-adoption.
 8. **Screen for horizontal domain insights.** Sources about delivery workflows may contain agent management insights or knowledge management patterns. Extract these into the appropriate horizontal domain.

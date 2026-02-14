@@ -33,9 +33,9 @@ Ryan Carson's core argument is that "vibe coding" fails at scale because develop
 
 - **[Interactive PRD Writing](../knowledge-base/product-lifecycle/build/interactive-prd-writing.md)**: Templatized rule file that instructs AI to ask clarifying questions before generating a PRD, forcing thorough context-building; "junior developer" standard ensures AI-friendly explicitness
 - **[Task List Generation for Observability](../knowledge-base/product-lifecycle/build/task-list-generation-for-observability.md)**: Decomposing a PRD into a nested task list as a mechanism for observability (see the plan before execution), control (approve before action), and stakeholder engagement (readable artifact for collaborators)
-- **[Stepwise Task Execution](../knowledge-base/horizontal/stepwise-task-execution.md)**: One-task-at-a-time execution with pause-and-approve checkpoints after each step; catches errors before they compound across dependent tasks
+- **[Stepwise Task Execution](../knowledge-base/horizontal/agents/stepwise-task-execution.md)**: One-task-at-a-time execution with pause-and-approve checkpoints after each step; catches errors before they compound across dependent tasks
 - **[Context First Development](../knowledge-base/product-lifecycle/build/context-first-development.md)**: "Slow down to speed up" — the biggest mistake in AI-assisted development is rushing past context; writing PRDs "for a junior developer" forces the clarity AI needs
-- **[Deliberate Context Selection](../knowledge-base/horizontal/deliberate-context-selection.md)**: Hand-picking files for LLM context ("glass box") vs. relying on automatic context ("black box") — for complex tasks, precise context produces dramatically better results
+- **[Deliberate Context Selection](../knowledge-base/horizontal/context/deliberate-context-selection.md)**: Hand-picking files for LLM context ("glass box") vs. relying on automatic context ("black box") — for complex tasks, precise context produces dramatically better results
 
 ## Notes
 

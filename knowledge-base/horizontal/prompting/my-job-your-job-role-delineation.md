@@ -9,7 +9,7 @@ entry_type: technique
 origin: sourced
 featured: false
 domain: horizontal
-horizontal_domain: practices
+horizontal_domain: prompting
 project: ai-pm-craft
 ---
 
@@ -54,5 +54,6 @@ YOUR job is [what you want the AI to produce — a specific, bounded deliverable
 ## Related
 
 - [Be 100x More Specific](be-100x-more-specific.md)
+
 - [Reverse Engineer Judgment Into AI](../ai-adoption/reverse-engineer-judgment-into-ai.md)
 - [Interactive PRD Writing](../product-lifecycle/build/interactive-prd-writing.md)
