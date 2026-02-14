@@ -51,7 +51,7 @@ Classification rules, lifecycle framework, and entry templates live in `meta/`. 
 
 ## Status
 
-Early stage. 23 sources captured, 3 fully processed into 12 knowledge entries (all draft). 17 unread sources in the queue. Current entries cluster in Build, Horizontal Practices, and AI Adoption. Three new horizontal domains (Software Delivery, Agent Lifecycle, Knowledge Management) established — awaiting source processing to populate.
+Early stage. 25 sources captured, 3 fully processed into 14 knowledge entries (all draft). 19 unread sources in the queue. Current entries span Build, Shape, Horizontal Practices, and AI Adoption. Three new horizontal domains (Software Delivery, Agent Lifecycle, Knowledge Management) established — awaiting source processing to populate.
 
 ---
 

@@ -39,7 +39,7 @@ Components: Stakeholder Intent Alignment · Success Criteria & Business Case · 
 *What solution takes form, and for whom?*
 Components: Persona & Journey Mapping · Prototyping & Risk Reduction · Go-to-Market Planning
 
-*No entries yet.*
+- [Shape the Product — AI Disruption Profile](product-lifecycle/shape/shape-the-product-ai-disruption.md) — Determining what to build; most disrupted PM job (🤖🤖🤖), especially strategy/vision (🤖🤖🤖🤖)
 
 ### Build
 
@@ -49,6 +49,7 @@ Components: Feature Specification Writing · User Story & Acceptance Criteria ·
 - [Interactive PRD Writing](product-lifecycle/build/interactive-prd-writing.md) — Templatized rule files + AI follow-up questions for thorough PRDs `build/feature-specification-writing`
 - [Task List Generation for Observability](product-lifecycle/build/task-list-generation-for-observability.md) — Decomposing PRDs into nested task lists for observability and control `build/user-story-acceptance-criteria`
 - [Context First Development](product-lifecycle/build/context-first-development.md) — The biggest mistake in AI-assisted dev is rushing past context `build`
+- [Ship the Product — AI Disruption Profile](product-lifecycle/build/ship-the-product-ai-disruption.md) — Helping the team deliver; moderately disrupted (🤖🤖), scope tradeoffs remain human-driven
 
 ### Release
 
@@ -79,7 +80,7 @@ Atomic techniques applicable across 3+ lifecycle phases — prompting patterns, 
 - [Deliberate Context Selection](horizontal/practices/deliberate-context-selection.md) — Hand-picking files for LLM context vs. relying on automatic context
 - [AI as Writing Coach](horizontal/practices/ai-as-writing-coach.md) — Structured workflow: thesis validation → blind spots → restructuring
 - [Stepwise Task Execution](horizontal/practices/stepwise-task-execution.md) — One-task-at-a-time execution with pause-and-approve checkpoints
-- [Shape/Ship/Sync PM Work Model](horizontal/practices/shape-ship-sync-pm-work-model.md) — Three-job framework for PM work with AI disruption ratings per sub-task
+- [Sync the People — AI Disruption Profile](horizontal/practices/sync-the-people-ai-disruption.md) — Human coordination and alignment; least disrupted PM job (🤖), a durable competitive advantage
 
 ### [Software Delivery](horizontal/software-delivery/) — Delivery Methodologies
 
