@@ -1,8 +1,8 @@
-title: AI Product Craft
+title: AI PM
 description: >-
   A knowledge base for AI-augmented product management — how PMs use AI tools
   effectively and how product organizations adapt to AI-native ways of working.
-url: "https://ai-product-craft.com"
+url: "https://ai-pm.cc"
 baseurl: ""
 
 theme: just-the-docs
@@ -33,7 +33,7 @@ heading_anchors: true
 # Edit link
 gh_edit_link: true
 gh_edit_link_text: "View source on GitHub"
-gh_edit_repository: "https://github.com/dudgeon/ai-product-craft"
+gh_edit_repository: "https://github.com/dudgeon/ai-pm"
 gh_edit_branch: "main"
 gh_edit_view_mode: "blob"
 
