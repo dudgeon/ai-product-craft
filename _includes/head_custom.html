@@ -1,0 +1,23 @@
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  if (document.getElementById("page-toc-nav")) return;
+  var headings = document.querySelectorAll(".main-content h2, .main-content h3");
+  if (headings.length === 0) return;
+  var sideNav = document.querySelector(".site-nav");
+  if (!sideNav) return;
+  var toc = document.createElement("nav");
+  toc.id = "page-toc-nav";
+  toc.className = "page-toc-nav";
+  var label = document.createElement("div");
+  label.className = "page-toc-label";
+  label.textContent = "On this page";
+  toc.appendChild(label);
+  var list = document.createElement("ul");
+  list.className = "page-toc-list";
+  headings.forEach(function(h) {
+    if (!h.id) return;
+    var li = document.createElement("li");
+    li.className = h.tagName === "H3" ? "page-toc-h3" : "page-toc-h2";
+    var a = document.createElement("a");
+    a.href = "#" + h.id;
+    a.textContent = h.textContent.replace(/
