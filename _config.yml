@@ -30,10 +30,6 @@ color_scheme: light
 search_enabled: true
 heading_anchors: true
 
-# Table of contents on each page (right sidebar)
-# Shows H2 and H3 headings
-toc:
-  heading_level: 3
 
 # Edit link
 gh_edit_link: true
