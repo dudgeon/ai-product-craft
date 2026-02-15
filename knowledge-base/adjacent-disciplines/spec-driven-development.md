@@ -3,12 +3,12 @@ created: 2026-02-14
 updated: 2026-02-14
 template: templates/knowledge-entry.md
 template_version: 5
-tags: [knowledge, ai-pm, mental-model, software-methodology, spec-driven, ai-coding]
+tags: [knowledge, ai-pm, mental-model, adjacent-disciplines, spec-driven, ai-coding]
 status: draft
 entry_type: mental-model
 origin: sourced
 featured: false
-domain: software-methodology
+domain: adjacent-disciplines
 project: ai-pm
 ---
 

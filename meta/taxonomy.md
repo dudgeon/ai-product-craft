@@ -1,6 +1,6 @@
 ---
 created: 2026-02-08
-updated: 2026-02-14
+updated: 2026-02-15
 tags: [meta, ai-pm, taxonomy]
 status: active
 ---
@@ -22,14 +22,14 @@ Every knowledge entry belongs to exactly one domain.
 | **Product Lifecycle** | `knowledge-base/product-lifecycle/{phase}/` | Techniques and insights that augment a specific stage of building product |
 | **Horizontal** | `knowledge-base/horizontal/{horizontal_domain}/` | Lifecycle-agnostic AI PM skills and knowledge areas — see Horizontal Domains below |
 | **AI Adoption & Change Management** | `knowledge-base/ai-adoption/` | How organizations and individuals adapt to AI-native ways of working — scaling expertise, org change, driving adoption |
-| **Software Methodology Evolution** | `knowledge-base/software-methodology/` | How AI changes the way software gets built — compound engineering, spec-driven development, vibe coding, evolving delivery paradigms |
+| **Adjacent Disciplines** | `knowledge-base/adjacent-disciplines/` | How AI transforms the disciplines of PMs' close collaborators (engineering, design, analytics) — and what their shifting AI adoption means for product leadership |
 
 ### Classification test
 
 1. **Does this technique augment a specific lifecycle phase?** → Product Lifecycle (file under the phase)
 2. **Is it a lifecycle-agnostic AI PM skill or knowledge area?** → Horizontal (then determine which horizontal domain — see below)
 3. **Is it about bringing others along or changing how teams/orgs work?** → AI Adoption & Change Management
-4. **Is it about how AI fundamentally changes software delivery methodologies?** → Software Methodology Evolution
+4. **Is it about how AI transforms a collaborator discipline (engineering, design, analytics) and what that means for PMs?** → Adjacent Disciplines
 
 ---
 
@@ -160,7 +160,7 @@ Knowledge entry frontmatter fields for taxonomy:
 ```yaml
 # Required
 entry_type: technique | mental-model | insight
-domain: product-lifecycle | horizontal | ai-adoption | software-methodology
+domain: product-lifecycle | horizontal | ai-adoption | adjacent-disciplines
 
 # Required for product-lifecycle entries
 lifecycle_phase: discover | frame | shape | build | release | measure

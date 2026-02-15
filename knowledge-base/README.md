@@ -1,6 +1,6 @@
 ---
 created: 2026-02-08
-updated: 2026-02-14
+updated: 2026-02-15
 tags: [index, ai-pm, knowledge-base]
 status: active
 domain: professional-development
@@ -121,14 +121,15 @@ How organizations and individuals adapt to AI-native ways of working — scaling
 - [Data Silos Block Enterprise Agent Adoption](ai-adoption/data-silos-block-agent-adoption.md) — Enterprise data fragmented across SaaS tools is the primary barrier to agent rollout, not model capability
 - [Tool Identity as Adoption Gate](ai-adoption/tool-identity-as-adoption-gate.md) — When a capable AI tool has narrow adoption, the bottleneck may be naming/branding/positioning, not capability
 - [Retrieval Infrastructure Graduation](ai-adoption/retrieval-infrastructure-graduation.md) — Tiered path from filesystem-only → semantic search → knowledge graph, with graduation criteria for each transition
+- [Raise the Floor vs Raise the Ceiling](ai-adoption/raise-the-floor-vs-raise-the-ceiling.md) — Two axes of AI adoption: floor (Gems, packaged runtimes for everyone) vs ceiling (agentic methods for power users); effective change management sequences and balances both
 
 ---
 
-## Software Methodology Evolution
+## Adjacent Disciplines
 
-How AI fundamentally changes the way software gets built — compound engineering, spec-driven development, vibe coding, evolving delivery paradigms.
+How AI transforms the disciplines of PMs' close collaborators (engineering, design, analytics) — and what their shifting AI adoption means for product leadership. In many non-AI-native orgs, engineering leads product in agentic adoption; PMs are likely to lead design and analytics.
 
-- [Spec-Driven Development](software-methodology/spec-driven-development.md) — Software ships as specs + tests with zero code; works for stable utilities, breaks for anything needing performance, debugging, community, or security patching
+- [Spec-Driven Development](adjacent-disciplines/spec-driven-development.md) — Software ships as specs + tests with zero code; works for stable utilities, breaks for anything needing performance, debugging, community, or security patching
 
 ---
 

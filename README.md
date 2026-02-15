@@ -1,6 +1,6 @@
 ---
 created: 2026-02-05
-updated: 2026-02-14
+updated: 2026-02-15
 tags: [project, ai-pm, product-management, learning]
 status: active
 domain: professional-development
@@ -31,7 +31,7 @@ ai-pm/
 │   │   ├── runtimes/                    Templated AI runtimes (GPTs, Gems, Claude Projects)
 │   │   └── agents/                      Building & managing knowledge agents
 │   ├── ai-adoption/                     Org change and adoption
-│   └── software-methodology/            How AI changes software delivery paradigms
+│   └── adjacent-disciplines/            How AI transforms PM collaborator disciplines
 └── meta/              Project ontology, taxonomy, and lifecycle framework
 ```
 
@@ -60,7 +60,7 @@ Classification rules, lifecycle framework, and entry templates live in `meta/`. 
 
 ## Status
 
-Early stage. 31 sources captured, 11 fully processed into 29 knowledge entries. 19 unread sources in the queue. Entries span Build, Shape, Context, Prompting, Agents, AI Adoption, and Software Methodology. Templated AI Runtimes domain awaiting source processing to populate.
+Early stage. 31 sources captured, 11 fully processed into 30 knowledge entries. 19 unread sources in the queue. Entries span Build, Shape, Context, Prompting, Agents, AI Adoption, and Adjacent Disciplines. Templated AI Runtimes domain awaiting source processing to populate.
 
 ---
 

@@ -29,7 +29,7 @@ Breunig's `whenwords` is a thought experiment: what if libraries shipped only sp
 
 ## Key Ideas Extracted
 
-- [Spec-Driven Development](../knowledge-base/software-methodology/spec-driven-development.md) — When specs + tests can replace code; the utility-vs-foundation classification spectrum
+- [Spec-Driven Development](../knowledge-base/adjacent-disciplines/spec-driven-development.md) — When specs + tests can replace code; the utility-vs-foundation classification spectrum
 
 ## Notes
 
