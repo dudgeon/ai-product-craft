@@ -39,13 +39,13 @@ The power of this model is that it gives agents a shared namespace — a single,
 
 ## Sources
 
-### From: [2026-02-14 Mernit Openclaw Filesystem as State](../../sources/2026-02-14-mernit-openclaw-filesystem-as-state.md)
+### From: [2026-02-14 Mernit Openclaw Filesystem as State](../../../sources/2026-02-14-mernit-openclaw-filesystem-as-state.md)
 **Key quote**: "The architecture of an AI agent can be reduced to two components: the filesystem as state, and Claude as the orchestrator."
 **Attribution**: @mernit
 **What this source adds**: Articulates the core architectural reduction clearly, then extends it from personal (Openclaw) to enterprise (law firm example). The law firm filesystem diagram — cases, billing, time-sheets as folders — makes the enterprise application concrete. The unix permissions insight (file permissions = org chart governance) is the most novel contribution.
-**Links**: [Original](https://x.com/mernit/status/2021324284875153544) | [Archive](../../sources/2026-02-14-mernit-openclaw-filesystem-as-state.md)
+**Links**: [Original](https://x.com/mernit/status/2021324284875153544) | [Archive](../../../sources/2026-02-14-mernit-openclaw-filesystem-as-state.md)
 
 ## Related
 
-- [Deliberate Context Selection](../context/deliberate-context-selection.md) — related concern: what goes into the agent's context window. Filesystem-as-state determines *what exists*; deliberate context selection determines *what gets loaded*.
-- [Context First Development](../../product-lifecycle/build/context-first-development.md) — the principle that context comes before action applies directly here: the filesystem must be populated before the agent can be useful.
+- [Deliberate Context Selection](../../context/deliberate-context-selection.md) — related concern: what goes into the agent's context window. Filesystem-as-state determines *what exists*; deliberate context selection determines *what gets loaded*.
+- [Context First Development](../../../product-lifecycle/build/context-first-development.md) — the principle that context comes before action applies directly here: the filesystem must be populated before the agent can be useful.

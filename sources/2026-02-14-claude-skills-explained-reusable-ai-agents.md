@@ -66,7 +66,7 @@ Walkthrough of three workflows for creating Claude Skills — Anthropic's featur
 
 ## Key Ideas Extracted
 
-- [Meta-Skill Pattern](../knowledge-base/horizontal/agents/meta-skill-pattern.md) — Build a "skill that builds skills" to bootstrap agent capabilities consistently; factory pattern for agent skill creation
+- [Meta-Skill Pattern](../knowledge-base/horizontal/agents/skills/meta-skill-pattern.md) — Build a "skill that builds skills" to bootstrap agent capabilities consistently; factory pattern for agent skill creation
 
 ## Relevance to AI PM
 

@@ -51,7 +51,7 @@ A practical heuristic: write as if you're instructing a "junior developer." This
 
 - [Interactive PRD Writing](interactive-prd-writing.md)
 - [Task List Generation for Observability](task-list-generation-for-observability.md)
-- [Stepwise Task Execution](../../horizontal/agents/stepwise-task-execution.md)
+- [Stepwise Task Execution](../../horizontal/agents/skills/stepwise-task-execution.md)
 - [Deliberate Context Selection](../../horizontal/context/deliberate-context-selection.md)
-- [Structured Context Loading](../../horizontal/agents/structured-context-loading.md) — The systematic implementation of context-first: purpose-built files loaded before each interaction
+- [Structured Context Loading](../../horizontal/agents/skills/structured-context-loading.md) — The systematic implementation of context-first: purpose-built files loaded before each interaction
 - [Parallel Prototyping for Clarity](../../product-lifecycle/shape/parallel-prototyping-for-clarity.md) — A way to build context through exploration rather than upfront specification

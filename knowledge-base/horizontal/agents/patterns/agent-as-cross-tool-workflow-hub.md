@@ -42,14 +42,14 @@ This pattern is distinct from Zapier-style automation because the agent applies 
 
 ## Sources
 
-### From: [2026-02-13 Everyone Should Use Claude Code More](../../sources/2026-02-13-everyone-should-use-claude-code-more.md)
+### From: [2026-02-13 Everyone Should Use Claude Code More](../../../sources/2026-02-13-everyone-should-use-claude-code-more.md)
 **Key quote**: "Given MCPs to interact with other tools in our productivity stack—Fireflies, Linear, Notion—it's become my hub for ongoing product research and development."
 **Attribution**: Derek DeHart
 **What this source adds**: Five independent examples of the same pattern from different users — cross-tool workflow hub via MCP. DeHart's framing as a "hub for ongoing product research" is the clearest articulation. Bertram's "Claude CEO" daily briefing shows the pattern at its most ambitious (4 tools → single daily output). Shmueli's 4 custom subagents show the pattern extending to autonomous monitoring.
-**Links**: [Original](https://www.lennysnewsletter.com/p/everyone-should-be-using-claude-code) | [Archive](../../sources/2026-02-13-everyone-should-use-claude-code-more.md)
+**Links**: [Original](https://www.lennysnewsletter.com/p/everyone-should-be-using-claude-code) | [Archive](../../../sources/2026-02-13-everyone-should-use-claude-code-more.md)
 
 ## Related
 
 - [Stepwise Task Execution](stepwise-task-execution.md) — the execution model that makes cross-tool workflows safe (pause-and-approve between tools)
 - [Filesystem as Agent State](filesystem-as-agent-state.md) — the architectural foundation: agent needs a shared namespace to coordinate across tool outputs
-- [Tool Identity as Adoption Gate](../../ai-adoption/tool-identity-as-adoption-gate.md) — from the same source; the cross-tool hub capability is part of what's hidden behind the "Code" branding
+- [Tool Identity as Adoption Gate](../../../ai-adoption/tool-identity-as-adoption-gate.md) — from the same source; the cross-tool hub capability is part of what's hidden behind the "Code" branding

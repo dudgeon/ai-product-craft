@@ -50,5 +50,5 @@ The mechanism: a rule file instructs the AI to first propose a high-level plan a
 ## Related
 
 - [Interactive PRD Writing](interactive-prd-writing.md)
-- [Stepwise Task Execution](../../horizontal/agents/stepwise-task-execution.md)
+- [Stepwise Task Execution](../../horizontal/agents/skills/stepwise-task-execution.md)
 - [Context-First Development](context-first-development.md)

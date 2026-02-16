@@ -1,6 +1,6 @@
 ---
 created: 2026-02-08
-updated: 2026-02-15
+updated: 2026-02-16
 tags: [index, ai-pm, knowledge-base]
 status: active
 domain: professional-development
@@ -102,14 +102,20 @@ Packaged, shareable, non-agentic AI tools (Custom GPTs, Google Gems, Claude Proj
 
 Building and managing knowledge agents — lifecycle management, rules, skills, templates, tools, workflows. How PMs select, onboard, train, and performance-manage AI agents.
 
-- [Stepwise Task Execution](horizontal/agents/stepwise-task-execution.md) — One-task-at-a-time execution with pause-and-approve checkpoints
-- [Meta-Skill Pattern](horizontal/agents/meta-skill-pattern.md) — Build a "skill that builds skills" to bootstrap agent capabilities consistently
-- [Filesystem as Agent State](horizontal/agents/filesystem-as-agent-state.md) — Agent architecture = filesystem (state) + LLM (orchestrator); company-as-filesystem gives agents a shared namespace
-- [Knowledge Capture as Side Effect](horizontal/agents/knowledge-capture-as-side-effect.md) — Design agent systems so knowledge capture is a byproduct of corrections, not a separate task; extends to self-driving documentation `solid`
-- [Agent as Cross-Tool Workflow Hub](horizontal/agents/agent-as-cross-tool-workflow-hub.md) — Local agent + MCP integrations replaces manual cross-tool workflows; becomes the orchestration layer across disconnected SaaS tools
-- [Agent-Mediated Self-Reflection](horizontal/agents/agent-mediated-self-reflection.md) — Using agents to observe your behavioral patterns (conflict avoidance, intention-action gaps, unregistered learnings) from digital exhaust
-- [Progressive Tool Disclosure](horizontal/agents/progressive-tool-disclosure.md) — Revealing MCP tools in layers to combat choice paralysis and hallucination (+15% accuracy vs flat exposure)
-- [Structured Context Loading](horizontal/agents/structured-context-loading.md) — Purpose-built files (plans, guidelines, journeys) loaded before each interaction to align agent behavior across sessions
+#### [Skills](horizontal/agents/skills/) — Tool-Agnostic Patterns
+
+- [Stepwise Task Execution](horizontal/agents/skills/stepwise-task-execution.md) — One-task-at-a-time execution with pause-and-approve checkpoints
+- [Meta-Skill Pattern](horizontal/agents/skills/meta-skill-pattern.md) — Build a "skill that builds skills" to bootstrap agent capabilities consistently
+- [Filesystem as Agent State](horizontal/agents/skills/filesystem-as-agent-state.md) — Agent architecture = filesystem (state) + LLM (orchestrator); company-as-filesystem gives agents a shared namespace
+- [Knowledge Capture as Side Effect](horizontal/agents/skills/knowledge-capture-as-side-effect.md) — Design agent systems so knowledge capture is a byproduct of corrections, not a separate task; extends to self-driving documentation `solid`
+- [Agent as Cross-Tool Workflow Hub](horizontal/agents/skills/agent-as-cross-tool-workflow-hub.md) — Local agent + MCP integrations replaces manual cross-tool workflows; becomes the orchestration layer across disconnected SaaS tools
+- [Agent-Mediated Self-Reflection](horizontal/agents/skills/agent-mediated-self-reflection.md) — Using agents to observe your behavioral patterns (conflict avoidance, intention-action gaps, unregistered learnings) from digital exhaust
+- [Progressive Tool Disclosure](horizontal/agents/skills/progressive-tool-disclosure.md) — Revealing MCP tools in layers to combat choice paralysis and hallucination (+15% accuracy vs flat exposure)
+- [Structured Context Loading](horizontal/agents/skills/structured-context-loading.md) — Purpose-built files (plans, guidelines, journeys) loaded before each interaction to align agent behavior across sessions
+
+#### [Harnesses](horizontal/agents/harnesses/) — Platform-Specific Knowledge
+
+- [Cursor: Structured AI Development](horizontal/agents/harnesses/cursor-structured-ai-development.md) — Three-file rule system, @-includes, MCP config, and Repo Prompt for structured workflows in Cursor
 
 ## AI Adoption & Change Management
 
