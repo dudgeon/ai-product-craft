@@ -18,7 +18,7 @@ domain: professional-development
 project: ai-pm
 # taxonomy_inference: horizontal/agents (custom-tool-building, agent-steering); product-lifecycle/build (scope-priority-tradeoffs)
 # provenance: bulk-added by Claude from podcast-episode-compilation.md (2026-02-15)
-# rescrape_needed: true — summary is web-search-derived, not from full article text
+# rescrape_needed: no matching ChatPRD URL found — may be YouTube-only or unpublished as blog post
 ---
 
 # Flowy: A Custom Visual Planning Tool to Steer Claude Code + Codex for QA
