@@ -43,5 +43,5 @@ The proposed solution: model the company as a filesystem — a single, navigable
 
 ## Related
 
-- [Filesystem as Agent State](../horizontal/agents/skills/filesystem-as-agent-state.md) — the architectural pattern this adoption barrier motivates. The silo problem is the *why*; filesystem-as-state is the *how*.
+- [Filesystem as Agent State](../horizontal/agents/system-design/filesystem-as-agent-state.md) — the architectural pattern this adoption barrier motivates. The silo problem is the *why*; filesystem-as-state is the *how*.
 - [AI Disrupts Strategic PM Skills Most](ai-disrupts-strategic-pm-skills-most.md) — related adoption insight about what AI actually changes for PMs.

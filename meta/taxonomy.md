@@ -44,12 +44,44 @@ The horizontal domain is organized as a stack by delivery mechanism, with increa
 | **Templated AI Runtimes** | `runtimes` | `horizontal/runtimes/` | Packaged, shareable, non-agentic AI tools (Custom GPTs, Google Gems, Claude Projects). Building, distributing, and managing templated AI runtimes for teams and organizations. |
 | **Agents** | `agents` | `horizontal/agents/` | Building and managing knowledge agents — lifecycle management, rules, skills, templates, tools, workflows. How PMs select, onboard, train, give feedback to, and performance-manage AI agents. |
 
+### Agents Sub-domains
+
+The agents horizontal domain has its own internal organization, reflecting the distinct concerns of building, deploying, and managing AI agents.
+
+| Sub-domain | Slug | Folder | What belongs here |
+|---|---|---|---|
+| **System Design** | `system-design` | `horizontal/agents/system-design/` | Tool-agnostic patterns and techniques for designing and configuring agent systems — architecture, behavior, control mechanisms, workflow execution, knowledge capture. |
+| **Harnesses** | `harnesses` | `horizontal/agents/harnesses/` | Platform-specific knowledge — setup, configuration, capabilities, best practices for specific agent tools (Claude Code, Cursor, Devin, etc.). |
+| **Managing Agents** | `managing-agents` | `horizontal/agents/managing-agents/` | The human-agent management relationship — deciding what to delegate, how to delegate effectively, evaluating agent output, and managing agents as autonomous participants. See Managing Agents Sub-domains below. |
+
+#### Managing Agents Sub-domains
+
+| Sub-domain | Slug | Folder | What belongs here |
+|---|---|---|---|
+| **Task-Agent Fit** | `task-fit` | `horizontal/agents/managing-agents/task-fit/` | Decision frameworks for what work to delegate to agents — when delegation is worthwhile, risk assessment, the jagged frontier of agent capability. |
+| **Delegation Craft** | `delegation` | `horizontal/agents/managing-agents/delegation/` | How to effectively hand off work to agents — instructions, documentation formats, defining done, checkpoints, iteration strategies. |
+| **Evaluation & Feedback** | `evaluation` | `horizontal/agents/managing-agents/evaluation/` | Assessing agent output, giving feedback, iteration cost management, quality recognition, feedback loops. |
+| **Agent Selection & Onboarding** | `selection` | `horizontal/agents/managing-agents/selection/` | Choosing which agents/tools for which roles, matching capability to need, initial setup and calibration. |
+
+#### Agents sub-domain classification test
+
+1. **Is it a tool-agnostic pattern for designing/configuring agent systems?** → System Design
+2. **Is it specific to a particular agent platform?** → Harnesses
+3. **Is it about the human-agent management relationship?** → Managing Agents (then determine which sub-domain — see below)
+
+#### Managing Agents classification test
+
+1. **Is it about deciding WHEN or WHETHER to delegate?** → Task-Agent Fit
+2. **Is it about HOW to hand off work effectively?** → Delegation Craft
+3. **Is it about assessing output or giving feedback?** → Evaluation & Feedback
+4. **Is it about choosing or onboarding agents/tools?** → Agent Selection & Onboarding
+
 ### Horizontal classification test
 
 1. **Is it a portable prompting technique (works in any chat window)?** → Prompting
 2. **Is it about making knowledge discoverable and usable?** → Context & Knowledge Management
 3. **Is it about packaged, shareable, non-agentic AI tools?** → Templated AI Runtimes
-4. **Is it about building and managing knowledge agents?** → Agents
+4. **Is it about building and managing knowledge agents?** → Agents (then determine which agents sub-domain — see above)
 
 ### Dual attribution
 

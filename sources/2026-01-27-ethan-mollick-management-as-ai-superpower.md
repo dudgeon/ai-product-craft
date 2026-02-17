@@ -5,7 +5,7 @@ updated: 2026-02-16
 template: templates/source.md
 template_version: 3
 tags: [source, ai-pm]
-status: read
+status: processed
 source_type: newsletter
 source_url: "https://www.oneusefulthing.org/p/management-as-ai-superpower"
 archive_url: ""
@@ -30,15 +30,18 @@ Ethan Mollick makes the case that management — not prompting, not AI literacy 
 
 ## Key Ideas Extracted
 
-- **Three-variable delegation framework**: Human Baseline Time × Probability of Success × AI Process Time — the math determines when delegation is worthwhile; high human time + high AI success rate + low evaluation time = delegate
-- **Management skills as AI competitive advantage**: Scoping problems, defining deliverables, recognizing quality, giving feedback — these "soft" skills are the hard ones in the agentic era
-- **GDPval benchmark shift**: GPT-5.2 tied or beat human experts 72% of the time on complex 7-hour professional tasks; expert evaluation took ~1 hour — the equation now favors delegation for most complex work
-- **Order-of-magnitude acceleration with AI**: MBA students in a 4-day startup experiment accomplished more than pre-AI students did in a full semester — prototypes with working core features, diverse ideas, insightful market analyses
-- **Delegation documentation as AI prompts**: Every field already has formats for delegation (PRDs, shot lists, Five Paragraph Orders, engagement scopes) — these all work as AI prompts because they solve the same problem: getting what's in one person's head into another's actions
-- **Three levers for improving AI delegation**: Give better instructions (clear goals), get better at evaluation/feedback (fewer iterations), make evaluation cheaper (faster quality assessment) — all improved by subject matter expertise
-- **Scarcity shift from talent to direction**: AI makes talent abundant and cheap; what's scarce is knowing what to ask for — the people who thrive will know what good looks like and can explain it clearly
-- **Jagged Frontier applies to delegation decisions**: You don't reliably know what AI will be good or bad at on complex tasks, but it's fast and cheap — generate multiple versions and throw most away
-- **Lowered cost of pivoting**: AI dramatically reduces the cost of pivoting a startup, making it viable to explore multiple directions or even multiple startups at once
+Knowledge entries created:
+
+1. [Delegation Decision Framework](../knowledge-base/horizontal/agents/managing-agents/task-fit/delegation-decision-framework.md) — Three-variable equation (Human Baseline Time × Probability of Success × AI Process Time); includes three levers for improvement, GDPval evidence, jagged frontier implication
+2. [Delegation Documentation as Agent Prompts](../knowledge-base/horizontal/agents/managing-agents/delegation/delegation-documentation-as-prompts.md) — Cross-field delegation documentation inventory (PRDs, shot lists, Five Paragraph Orders); six common structural elements
+3. [Talent-to-Direction Scarcity Shift](../knowledge-base/horizontal/agents/managing-agents/talent-to-direction-scarcity-shift.md) — AI inverts scarcity: talent abundant, direction scarce; management skills as competitive advantage
+
+Ideas folded into entries above (not standalone):
+- **Three levers for improving AI delegation** → folded into Delegation Decision Framework (optimization paths for the three variables)
+- **GDPval benchmark shift** → evidence supporting Delegation Decision Framework
+- **Jagged Frontier applied to delegation** → implication within Delegation Decision Framework
+- **Order-of-magnitude acceleration** → supporting evidence across Talent-to-Direction Scarcity Shift and Delegation Decision Framework
+- **Lowered cost of pivoting** → connects to [Parallel Prototyping for Clarity](../knowledge-base/product-lifecycle/shape/parallel-prototyping-for-clarity.md) (existing entry)
 
 ## Notes
 

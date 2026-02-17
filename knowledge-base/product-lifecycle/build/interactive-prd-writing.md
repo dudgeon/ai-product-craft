@@ -50,5 +50,5 @@ The result is a complete PRD written at a level "suitable for a junior developer
 ## Related
 
 - [Task List Generation for Observability](task-list-generation-for-observability.md)
-- [Stepwise Task Execution](../../horizontal/agents/skills/stepwise-task-execution.md)
+- [Stepwise Task Execution](../../horizontal/agents/system-design/stepwise-task-execution.md)
 - [Context-First Development](context-first-development.md)

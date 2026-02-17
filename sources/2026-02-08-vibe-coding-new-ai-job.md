@@ -41,10 +41,10 @@ Lazar Jovanovic is a full-time professional vibe coder at Lovable. His job is to
 ## Key Ideas Extracted
 
 - [Parallel Prototyping for Clarity](../knowledge-base/product-lifecycle/shape/parallel-prototyping-for-clarity.md) — Start 5 parallel builds with increasing specificity to explore the solution space
-- [Structured Context Loading](../knowledge-base/horizontal/agents/skills/structured-context-loading.md) — 4-file PRD system as structured context input for agent alignment
+- [Structured Context Loading](../knowledge-base/horizontal/agents/system-design/structured-context-loading.md) — 4-file PRD system as structured context input for agent alignment
 - [Context First Development](../knowledge-base/product-lifecycle/build/context-first-development.md) (enriched) — 80/20 planning-to-building ratio validates context-first as time allocation strategy
 - [Deliberate Context Selection](../knowledge-base/horizontal/context/deliberate-context-selection.md) (enriched) — "Genie and three wishes" reframes context selection as resource allocation
-- [Knowledge Capture as Side Effect](../knowledge-base/horizontal/agents/skills/knowledge-capture-as-side-effect.md) (enriched) — Rules files as individual-practitioner version of the pattern
+- [Knowledge Capture as Side Effect](../knowledge-base/horizontal/agents/system-design/knowledge-capture-as-side-effect.md) (enriched) — Rules files as individual-practitioner version of the pattern
 
 ## Notes
 

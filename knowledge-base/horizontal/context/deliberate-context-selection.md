@@ -51,4 +51,4 @@ When working with LLMs on complex tasks (architectural reviews, tricky refactors
 - [Context First Development](../../product-lifecycle/build/context-first-development.md)
 - [Interactive PRD Writing](../../product-lifecycle/build/interactive-prd-writing.md)
 - [Be 100x More Specific](../prompting/be-100x-more-specific.md)
-- [Structured Context Loading](../agents/skills/structured-context-loading.md) — The systematic version: purpose-built files designed to be loaded before each interaction
+- [Structured Context Loading](../agents/system-design/structured-context-loading.md) — The systematic version: purpose-built files designed to be loaded before each interaction

@@ -48,6 +48,6 @@ Letta's Context Repositories validate this empirically: agents clone a git-backe
 
 ## Related
 
-- [Filesystem as Agent State](../agents/skills/filesystem-as-agent-state.md) — Complementary mental model. Agent state is about *what exists*; retrieval architecture is about *how agents find it*. Together they describe the full filesystem-centric agent architecture.
+- [Filesystem as Agent State](../agents/system-design/filesystem-as-agent-state.md) — Complementary mental model. Agent state is about *what exists*; retrieval architecture is about *how agents find it*. Together they describe the full filesystem-centric agent architecture.
 - [Three-Layer Context Disclosure](three-layer-context-disclosure.md) — The filesystem naturally implements three-layer disclosure: directory structure (layer 1), frontmatter (layer 2), file content (layer 3).
 - [Deliberate Context Selection](deliberate-context-selection.md) — Filesystem structure determines what's discoverable; deliberate selection determines what gets loaded into the context window.

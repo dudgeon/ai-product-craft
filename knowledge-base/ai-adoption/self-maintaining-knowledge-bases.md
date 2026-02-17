@@ -46,6 +46,6 @@ The key insight is that "knowledge that writes itself is knowledge that actually
 
 ## Related
 
-- [Knowledge Capture as Side Effect](../horizontal/agents/skills/knowledge-capture-as-side-effect.md) — the mechanism that produces self-maintaining knowledge bases
+- [Knowledge Capture as Side Effect](../horizontal/agents/system-design/knowledge-capture-as-side-effect.md) — the mechanism that produces self-maintaining knowledge bases
 - [Scale Manager Expertise With AI](scale-manager-expertise-with-ai.md) — related adoption pattern: agent-mediated knowledge capture is one way manager expertise scales beyond 1:1 interactions
 - [Reverse Engineer Judgment Into AI](reverse-engineer-judgment-into-ai.md) — corrections encode judgment; self-maintaining KBs are the accumulation of that judgment over time

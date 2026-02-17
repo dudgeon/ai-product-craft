@@ -1,16 +1,16 @@
 ---
 created: 2026-02-16
 updated: 2026-02-16
-tags: [index, ai-pm, horizontal, agents, skills]
+tags: [index, ai-pm, horizontal, agents, system-design]
 status: active
 domain: horizontal
 horizontal_domain: agents
 project: ai-pm
 ---
 
-# Agent Skills — Tool-Agnostic Patterns
+# Agent System Design — Architecture & Control Patterns
 
-Patterns, techniques, and mental models for building and managing AI agents that apply regardless of which harness (Claude Code, Cursor, Devin, etc.) you use.
+Patterns, techniques, and mental models for designing and configuring agent systems — architecture, behavior, and control mechanisms that apply regardless of which harness (Claude Code, Cursor, Devin, etc.) you use.
 
 ## Entries
 

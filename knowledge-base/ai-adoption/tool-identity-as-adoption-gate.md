@@ -49,7 +49,7 @@ The generalizable pattern: if your AI product isn't reaching the users it could 
 
 ## Related
 
-- [Agent as Cross-Tool Workflow Hub](../horizontal/agents/skills/agent-as-cross-tool-workflow-hub.md) — one of the use-case clusters demonstrating broad non-technical capability
-- [Agent-Mediated Self-Reflection](../horizontal/agents/skills/agent-mediated-self-reflection.md) — another novel use-case cluster from the same source
+- [Agent as Cross-Tool Workflow Hub](../horizontal/agents/system-design/agent-as-cross-tool-workflow-hub.md) — one of the use-case clusters demonstrating broad non-technical capability
+- [Agent-Mediated Self-Reflection](../horizontal/agents/system-design/agent-mediated-self-reflection.md) — another novel use-case cluster from the same source
 - [AI Disrupts Strategic PM Skills Most](ai-disrupts-strategic-pm-skills-most.md) — both are counterintuitive adoption insights from Lenny
 - [Data Silos Block Enterprise Agent Adoption](data-silos-block-agent-adoption.md) — another adoption barrier, structural (data fragmentation) rather than perceptual (tool identity)
