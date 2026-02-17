@@ -42,6 +42,8 @@ gh_edit_view_mode: "blob"
 footer_content: "AI PM is a personal project from <a href=\"https://x.com/geoffdudgeon\">Geoff Dudgeon</a>. All content belongs to the respective authors and is presented to help connect readers to original sources."
 
 # Navigation and layout defaults
+# NOTE: The sync workflow renames README.md → index.md for Jekyll clean URLs.
+# Scopes here must target index.md to match the post-sync filenames.
 defaults:
   - scope:
       path: ""
@@ -49,14 +51,14 @@ defaults:
       layout: "default"
       nav_exclude: true
   - scope:
-      path: "README.md"
+      path: "index.md"
     values:
       permalink: /
       nav_exclude: false
       nav_order: 1
       title: "Home"
   - scope:
-      path: "sources/README.md"
+      path: "sources/index.md"
     values:
       permalink: /sources/
       nav_exclude: false
@@ -70,7 +72,7 @@ defaults:
       nav_order: 3
       title: "Sources: Unread"
   - scope:
-      path: "knowledge-base/README.md"
+      path: "knowledge-base/index.md"
     values:
       permalink: /knowledge-base/
       nav_exclude: false
