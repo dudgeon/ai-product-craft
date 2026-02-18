@@ -29,7 +29,7 @@ Every engineering team has tribal knowledge that wikis and READMEs fail to captu
 
 ## Key Ideas Extracted
 
-- [Knowledge Capture as Side Effect](../knowledge-base/horizontal/agents/system-design/knowledge-capture-as-side-effect.md) — Design agent correction loops to double as knowledge capture pipelines; capture from corrections, repo scanning, and suggested updates
+- [Knowledge Capture as Side Effect](../knowledge-base/horizontal/agents/system-design/instruction-design/knowledge-capture-as-side-effect.md) — Design agent correction loops to double as knowledge capture pipelines; capture from corrections, repo scanning, and suggested updates
 - [Self-Maintaining Knowledge Bases](../knowledge-base/ai-adoption/self-maintaining-knowledge-bases.md) — Agent-mediated capture solves documentation staleness; emergent onboarding, tribal knowledge externalization, quality improves with team scale
 
 ## Key Concepts

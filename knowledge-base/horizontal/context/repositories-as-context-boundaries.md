@@ -34,7 +34,7 @@ The broader prediction: team knowledge repos (markdown in git, not wikis or Noti
 ## Related
 
 - [Filesystem as Retrieval Architecture](filesystem-as-retrieval-architecture.md) — Single-repo filesystem as retrieval system; this entry extends the pattern across repository boundaries
-- [Filesystem as Agent State](../agents/system-design/filesystem-as-agent-state.md) — Filesystem as agent state within one repo; cross-repo context expands the state namespace
+- [Filesystem as Agent State](../agents/system-design/architecture/filesystem-as-agent-state.md) — Filesystem as agent state within one repo; cross-repo context expands the state namespace
 - [Deliberate Context Selection](deliberate-context-selection.md) — Hand-picking context files; submodule import is a systematic version of this at the repo level
 - [Three-Layer Context Disclosure](three-layer-context-disclosure.md) — READMEs as index layer within repos; CLAUDE.md bridges serve a similar role across repo boundaries
 - *Software Methodology Evolution angle*: This pattern also signals how development infrastructure evolves under AI — repos become context containers, not just code containers, and historically painful git features get rehabilitated when agents absorb the ceremony

@@ -42,28 +42,28 @@ At the most ambitious end, agents can *autonomously* identify and fill documenta
 
 ## Sources
 
-### From: [2026-02-13 Agentic Team Memory Devin](../../../sources/2026-02-13-agentic-team-memory-devin.md)
+### From: [2026-02-13 Agentic Team Memory Devin](../../../../sources/2026-02-13-agentic-team-memory-devin.md)
 **Key quote**: "You don't have to think about documentation while you're working, you just correct the agent the way you'd correct a teammate, and the system prompts you to persist what's worth keeping."
 **Attribution**: Nader Dabit (@dabit3), Cognition
 **What this source adds**: Demonstrates the pattern at scale in Devin's multi-user engineering environment. The multi-source approach (chat + repo scanning + suggested updates + manual) is the most comprehensive implementation documented. Scoped knowledge (repo-level vs org-wide) is a practical design detail.
-**Links**: [Original](https://x.com/dabit3/status/2022459842342916559) | [Archive](../../../sources/2026-02-13-agentic-team-memory-devin.md)
+**Links**: [Original](https://x.com/dabit3/status/2022459842342916559) | [Archive](../../../../sources/2026-02-13-agentic-team-memory-devin.md)
 
-### From: [2026-02-13 Everyone Should Use Claude Code More](../../../sources/2026-02-13-everyone-should-use-claude-code-more.md)
+### From: [2026-02-13 Everyone Should Use Claude Code More](../../../../sources/2026-02-13-everyone-should-use-claude-code-more.md)
 **Key quote**: "Give an Agent the responsibility of figuring out how/where our documentation can be better and more comprehensive. Using Claude Code together with Playwright to automatically explore our software independently, identify knowledge gaps in our documentation, and then create those changes itself."
 **Attribution**: James Pember
 **What this source adds**: Extends the pattern from reactive (capture corrections) to proactive (agent autonomously identifies gaps). Four independent examples show a spectrum: auto-changelogs from commits (Aggarwal), reverse-built PRDs from code (Salisbury), verbose commits as future agent context (Chandwani), and fully autonomous doc exploration (Pember). Together with the Devin source, this confirms the pattern across both team/product contexts and individual PM workflows.
-**Links**: [Original](https://www.lennysnewsletter.com/p/everyone-should-be-using-claude-code) | [Archive](../../../sources/2026-02-13-everyone-should-use-claude-code-more.md)
+**Links**: [Original](https://www.lennysnewsletter.com/p/everyone-should-be-using-claude-code) | [Archive](../../../../sources/2026-02-13-everyone-should-use-claude-code-more.md)
 
-### From: [2026-02-08 Getting Paid to Vibe Code](../../../sources/2026-02-08-vibe-coding-new-ai-job.md)
+### From: [2026-02-08 Getting Paid to Vibe Code](../../../../sources/2026-02-08-vibe-coding-new-ai-job.md)
 **Key quote**: "After solving a problem, ask the AI how to prompt it better next time, then add that guidance to your rules.md file."
 **Attribution**: Lazar Jovanovic (via Lenny Rachitsky)
 **What this source adds**: A simpler, individual-practitioner version of the pattern. Where Devin automates capture through correction loops, Jovanovic's approach is manual but equally effective: solve a problem, ask the AI to reflect on what would have prevented it, persist the answer as a rule. The agent reads rules on every subsequent request, so each captured insight compounds. This demonstrates that the pattern doesn't require sophisticated infrastructure — a single rules.md file achieves the core benefit.
-**Links**: [Original](https://www.lennysnewsletter.com/p/getting-paid-to-vibe-code) | [Archive](../../../sources/2026-02-08-vibe-coding-new-ai-job.md)
+**Links**: [Original](https://www.lennysnewsletter.com/p/getting-paid-to-vibe-code) | [Archive](../../../../sources/2026-02-08-vibe-coding-new-ai-job.md)
 
 ## Related
 
-- [Filesystem as Agent State](filesystem-as-agent-state.md) — the captured knowledge needs to live somewhere; the filesystem-as-state model provides the storage substrate
-- [Deliberate Context Selection](../../context/deliberate-context-selection.md) — captured knowledge is only useful if it surfaces at the right time; scoped knowledge application is a form of deliberate selection
-- [Reverse Engineer Judgment Into AI](../../../ai-adoption/reverse-engineer-judgment-into-ai.md) — corrections encode expert judgment; this pattern is a mechanism for systematically extracting that judgment
-- [Agent-Mediated Self-Reflection](agent-mediated-self-reflection.md) — Chad Boyda's pattern (surfacing learnings from Slack) bridges self-reflection and knowledge capture
+- [Filesystem as Agent State](../architecture/filesystem-as-agent-state.md) — the captured knowledge needs to live somewhere; the filesystem-as-state model provides the storage substrate
+- [Deliberate Context Selection](../../../context/deliberate-context-selection.md) — captured knowledge is only useful if it surfaces at the right time; scoped knowledge application is a form of deliberate selection
+- [Reverse Engineer Judgment Into AI](../../../../ai-adoption/reverse-engineer-judgment-into-ai.md) — corrections encode expert judgment; this pattern is a mechanism for systematically extracting that judgment
+- [Agent-Mediated Self-Reflection](../supervision/agent-mediated-self-reflection.md) — Chad Boyda's pattern (surfacing learnings from Slack) bridges self-reflection and knowledge capture
 - [Structured Context Loading](structured-context-loading.md) — the rules file is one component of a broader structured context system

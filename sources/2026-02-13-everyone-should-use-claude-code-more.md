@@ -32,9 +32,9 @@ Collects 50 creative non-technical use cases from 500+ reader submissions spanni
 ## Key Ideas Extracted
 
 - [Tool Identity as Adoption Gate](../knowledge-base/ai-adoption/tool-identity-as-adoption-gate.md) — the naming/positioning thesis
-- [Agent as Cross-Tool Workflow Hub](../knowledge-base/horizontal/agents/system-design/agent-as-cross-tool-workflow-hub.md) — MCP integration pattern
-- [Agent-Mediated Self-Reflection](../knowledge-base/horizontal/agents/system-design/agent-mediated-self-reflection.md) — agents as behavioral analysts
-- [Knowledge Capture as Side Effect](../knowledge-base/horizontal/agents/system-design/knowledge-capture-as-side-effect.md) — enriched with self-maintaining documentation examples
+- [Agent as Cross-Tool Workflow Hub](../knowledge-base/horizontal/agents/system-design/architecture/agent-as-cross-tool-workflow-hub.md) — MCP integration pattern
+- [Agent-Mediated Self-Reflection](../knowledge-base/horizontal/agents/system-design/supervision/agent-mediated-self-reflection.md) — agents as behavioral analysts
+- [Knowledge Capture as Side Effect](../knowledge-base/horizontal/agents/system-design/instruction-design/knowledge-capture-as-side-effect.md) — enriched with self-maintaining documentation examples
 
 ## Notes
 

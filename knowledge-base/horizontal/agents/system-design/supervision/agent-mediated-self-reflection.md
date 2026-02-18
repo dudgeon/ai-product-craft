@@ -42,14 +42,14 @@ The pattern works because humans are poor observers of their own behavioral tend
 
 ## Sources
 
-### From: [2026-02-13 Everyone Should Use Claude Code More](../../../sources/2026-02-13-everyone-should-use-claude-code-more.md)
+### From: [2026-02-13 Everyone Should Use Claude Code More](../../../../sources/2026-02-13-everyone-should-use-claude-code-more.md)
 **Key quote**: "I download all of my meeting recordings, put them in a folder, and ask Claude Code to tell me all of the times I've subtly avoided conflict."
 **Attribution**: Dan Shipper
 **What this source adds**: Three independent examples of the self-reflection pattern from different users, each targeting a different behavioral dimension (conflict avoidance, intention-action gaps, unregistered learning). Gang Rui's implementation as a slash command with system-improvement output is the most developed version — it closes the loop from observation to action.
-**Links**: [Original](https://www.lennysnewsletter.com/p/everyone-should-be-using-claude-code) | [Archive](../../../sources/2026-02-13-everyone-should-use-claude-code-more.md)
+**Links**: [Original](https://www.lennysnewsletter.com/p/everyone-should-be-using-claude-code) | [Archive](../../../../sources/2026-02-13-everyone-should-use-claude-code-more.md)
 
 ## Related
 
-- [Knowledge Capture as Side Effect](knowledge-capture-as-side-effect.md) — Chad Boyda's pattern (identifying learnings from Slack) is a form of knowledge capture; the self-reflection agent surfaces what should be persisted
-- [Agent as Cross-Tool Workflow Hub](agent-as-cross-tool-workflow-hub.md) — the self-reflection agent needs access to multiple data sources (meetings, journals, commits), making it a specialized cross-tool pattern
-- [Tool Identity as Adoption Gate](../../../ai-adoption/tool-identity-as-adoption-gate.md) — from the same source; self-reflection is one of the non-obvious use cases hidden behind the "Code" branding
+- [Knowledge Capture as Side Effect](../instruction-design/knowledge-capture-as-side-effect.md) — Chad Boyda's pattern (identifying learnings from Slack) is a form of knowledge capture; the self-reflection agent surfaces what should be persisted
+- [Agent as Cross-Tool Workflow Hub](../architecture/agent-as-cross-tool-workflow-hub.md) — the self-reflection agent needs access to multiple data sources (meetings, journals, commits), making it a specialized cross-tool pattern
+- [Tool Identity as Adoption Gate](../../../../ai-adoption/tool-identity-as-adoption-gate.md) — from the same source; self-reflection is one of the non-obvious use cases hidden behind the "Code" branding

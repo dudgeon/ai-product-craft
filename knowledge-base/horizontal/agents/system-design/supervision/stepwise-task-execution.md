@@ -41,14 +41,14 @@ The key insight: in AI-assisted development, errors are cheap to fix at step N b
 
 ## Sources
 
-### From: [2026-02-07 Ryan Carson Structured AI Development](../../../sources/2026-02-07-ryan-carson-structured-ai-development.md)
+### From: [2026-02-07 Ryan Carson Structured AI Development](../../../../sources/2026-02-07-ryan-carson-structured-ai-development.md)
 **Key quote**: "This back-and-forth, one-step-at-a-time process is what makes the whole system so reliable. It lets Ryan catch small errors, linter issues, or other mistakes before they become bigger problems."
 **Attribution**: Ryan Carson
 **What this source adds**: Carson's `task_list_management.md` rule file implements this as a concrete Cursor workflow. The mechanism is simple: the AI edits the TASKS.md file to check off boxes, creating a visible audit trail. The "yes to continue" UX is minimal but effective — it keeps the human in control without requiring deep engagement at every step.
-**Links**: [Original](https://www.chatprd.ai/how-i-ai/ryan-carsons-3-step-playbook-for-structured-ai-development-in-cursor) | [Archive](../../../sources/2026-02-07-ryan-carson-structured-ai-development.md)
+**Links**: [Original](https://www.chatprd.ai/how-i-ai/ryan-carsons-3-step-playbook-for-structured-ai-development-in-cursor) | [Archive](../../../../sources/2026-02-07-ryan-carson-structured-ai-development.md)
 
 ## Related
 
-- [Interactive PRD Writing](../../product-lifecycle/build/interactive-prd-writing.md)
-- [Task List Generation for Observability](../../product-lifecycle/build/task-list-generation-for-observability.md)
-- [Context First Development](../../product-lifecycle/build/context-first-development.md)
+- [Interactive PRD Writing](../../../../product-lifecycle/build/interactive-prd-writing.md)
+- [Task List Generation for Observability](../../../../product-lifecycle/build/task-list-generation-for-observability.md)
+- [Context First Development](../../../../product-lifecycle/build/context-first-development.md)

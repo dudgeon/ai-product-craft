@@ -5,7 +5,7 @@ updated: 2026-02-09
 template: templates/source.md
 template_version: 3
 tags: [source, ai-pm]
-status: read
+status: unread
 source_type: organic
 source_url: ""
 archive_url: ""

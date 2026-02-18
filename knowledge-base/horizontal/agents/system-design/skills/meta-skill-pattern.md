@@ -39,12 +39,12 @@ The underlying insight is composability: agent skills aren't just endpoints — 
 
 ## Sources
 
-### From: [2026-02-14 Claude Skills Explained Reusable AI Agents](../../../sources/2026-02-14-claude-skills-explained-reusable-ai-agents.md)
+### From: [2026-02-14 Claude Skills Explained Reusable AI Agents](../../../../sources/2026-02-14-claude-skills-explained-reusable-ai-agents.md)
 **Key quote**: "Instead of relying on Claude's built-in creator, I decided to build my own. I started a chat with Cursor's AI and gave it the official Anthropic Skills Documentation as context."
 **Attribution**: Claire Vo
 **What this source adds**: Vo demonstrates the full cycle: building a meta-skill in Cursor (~3 minutes), then using it via Claude Code to generate a changelog-to-newsletter skill. The meta-skill auto-generated a Python validation script alongside the instruction file — showing that skills can bundle executable tooling, not just natural language instructions. The article also surfaces a practical contrast: Claude's built-in skill creator over-generates (12 files when 5 suffice), while a hand-crafted meta-skill produces exactly what you specify.
-**Links**: [Original](https://www.chatprd.ai/how-i-ai/claude-skills-explained) | [Archive](../../../sources/2026-02-14-claude-skills-explained-reusable-ai-agents.md)
+**Links**: [Original](https://www.chatprd.ai/how-i-ai/claude-skills-explained) | [Archive](../../../../sources/2026-02-14-claude-skills-explained-reusable-ai-agents.md)
 
 ## Related
 
-- [Stepwise Task Execution](stepwise-task-execution.md) — another agent management technique from the same source ecosystem (ChatPRD)
+- [Stepwise Task Execution](../supervision/stepwise-task-execution.md) — another agent management technique from the same source ecosystem (ChatPRD)

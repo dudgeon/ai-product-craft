@@ -52,16 +52,16 @@ These feed into a **tasks.md** that decomposes the plan into executable steps th
 
 ## Sources
 
-### From: [2026-02-08 Getting Paid to Vibe Code](../../../sources/2026-02-08-vibe-coding-new-ai-job.md)
+### From: [2026-02-08 Getting Paid to Vibe Code](../../../../sources/2026-02-08-vibe-coding-new-ai-job.md)
 **Key quote**: "Create four PRD files before serious building begins... The agent reads these files before each prompt — a structured context loading system for non-agentic AI tools."
 **Attribution**: Lazar Jovanovic (via Lenny Rachitsky)
 **What this source adds**: The concrete four-file PRD system as a structured context loading pattern for non-agentic tools. Jovanovic's approach demonstrates that even without built-in agent memory, you can create persistent alignment through file-based context. The tasks.md decomposition bridges the gap between high-level plans and executable agent instructions.
-**Links**: [Original](https://www.lennysnewsletter.com/p/getting-paid-to-vibe-code) | [Archive](../../../sources/2026-02-08-vibe-coding-new-ai-job.md)
+**Links**: [Original](https://www.lennysnewsletter.com/p/getting-paid-to-vibe-code) | [Archive](../../../../sources/2026-02-08-vibe-coding-new-ai-job.md)
 
 ## Related
 
-- [Interactive PRD Writing](../../../product-lifecycle/build/interactive-prd-writing.md) — Writing PRDs *with* AI; this entry is about using PRDs *to align* AI. Complementary workflows
-- [Context First Development](../../../product-lifecycle/build/context-first-development.md) — The principle that context precedes building; structured context loading is the systematic implementation of that principle
-- [Deliberate Context Selection](../../context/deliberate-context-selection.md) — Choosing which files to include; structured context loading creates purpose-built files designed to be included
-- [Filesystem as Agent State](filesystem-as-agent-state.md) — The files that persist context are a form of agent state maintained on the filesystem
-- [Three-Layer Context Disclosure](../../context/three-layer-context-disclosure.md) — The four-file system is a form of layered disclosure: master plan (index) → implementation plan (summary) → design/journeys (detail)
+- [Interactive PRD Writing](../../../../product-lifecycle/build/interactive-prd-writing.md) — Writing PRDs *with* AI; this entry is about using PRDs *to align* AI. Complementary workflows
+- [Context First Development](../../../../product-lifecycle/build/context-first-development.md) — The principle that context precedes building; structured context loading is the systematic implementation of that principle
+- [Deliberate Context Selection](../../../context/deliberate-context-selection.md) — Choosing which files to include; structured context loading creates purpose-built files designed to be included
+- [Filesystem as Agent State](../architecture/filesystem-as-agent-state.md) — The files that persist context are a form of agent state maintained on the filesystem
+- [Three-Layer Context Disclosure](../../../context/three-layer-context-disclosure.md) — The four-file system is a form of layered disclosure: master plan (index) → implementation plan (summary) → design/journeys (detail)

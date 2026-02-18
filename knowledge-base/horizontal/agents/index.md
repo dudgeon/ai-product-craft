@@ -16,18 +16,25 @@ Filesystem-paired, autonomous agents — lifecycle management, rules, skills, te
 
 ## Sub-domains
 
-### [System Design](system-design/) — Agent Architecture & Control Patterns
+### [System Design](system-design/) — Agent System Design
 
-Patterns, techniques, and mental models for designing and configuring agent systems — architecture, behavior, and control mechanisms that apply regardless of which harness you use.
+Patterns, techniques, and mental models for designing and configuring agent systems, organized by domain of practice.
 
-- [Stepwise Task Execution](system-design/stepwise-task-execution.md) — One-task-at-a-time execution with pause-and-approve checkpoints
-- [Meta-Skill Pattern](system-design/meta-skill-pattern.md) — Build a "skill that builds skills" to bootstrap agent capabilities consistently
-- [Filesystem as Agent State](system-design/filesystem-as-agent-state.md) — Agent architecture = filesystem (state) + LLM (orchestrator)
-- [Knowledge Capture as Side Effect](system-design/knowledge-capture-as-side-effect.md) — Design agent systems so knowledge capture is a byproduct of corrections
-- [Agent as Cross-Tool Workflow Hub](system-design/agent-as-cross-tool-workflow-hub.md) — Local agent + MCP integrations as orchestration layer
-- [Agent-Mediated Self-Reflection](system-design/agent-mediated-self-reflection.md) — Using agents to observe behavioral patterns from digital exhaust
-- [Progressive Tool Disclosure](system-design/progressive-tool-disclosure.md) — Revealing MCP tools in layers to combat choice paralysis and hallucination
-- [Structured Context Loading](system-design/structured-context-loading.md) — Purpose-built files loaded before each interaction to align agent behavior
+**[Instruction Design](system-design/instruction-design/)** — CLAUDE.md, agents.md & behavioral configuration
+- [Structured Context Loading](system-design/instruction-design/structured-context-loading.md) — Purpose-built files loaded before each interaction to align agent behavior
+- [Knowledge Capture as Side Effect](system-design/instruction-design/knowledge-capture-as-side-effect.md) — Design agent systems so knowledge capture is a byproduct of corrections `solid`
+
+**[Skills](system-design/skills/)** — Discrete agent capabilities
+- [Meta-Skill Pattern](system-design/skills/meta-skill-pattern.md) — Build a "skill that builds skills" to bootstrap agent capabilities consistently
+
+**[Supervision](system-design/supervision/)** — Human governance of agent execution
+- [Stepwise Task Execution](system-design/supervision/stepwise-task-execution.md) — One-task-at-a-time execution with pause-and-approve checkpoints
+- [Progressive Tool Disclosure](system-design/supervision/progressive-tool-disclosure.md) — Revealing MCP tools in layers to combat choice paralysis and hallucination
+- [Agent-Mediated Self-Reflection](system-design/supervision/agent-mediated-self-reflection.md) — Using agents to observe behavioral patterns from digital exhaust
+
+**[Architecture](system-design/architecture/)** — Structural foundations
+- [Filesystem as Agent State](system-design/architecture/filesystem-as-agent-state.md) — Agent architecture = filesystem (state) + LLM (orchestrator)
+- [Agent as Cross-Tool Workflow Hub](system-design/architecture/agent-as-cross-tool-workflow-hub.md) — Local agent + MCP integrations as orchestration layer
 
 ### [Harnesses](harnesses/) — Platform-Specific Knowledge
 

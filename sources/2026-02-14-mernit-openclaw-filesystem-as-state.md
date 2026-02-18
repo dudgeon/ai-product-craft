@@ -29,7 +29,7 @@ Openclaw's entire context model is the filesystem. The architecture of an AI age
 
 ## Key Ideas Extracted
 
-- [Filesystem as Agent State](../knowledge-base/horizontal/agents/system-design/filesystem-as-agent-state.md) — Agent architecture reduces to filesystem (state) + LLM (orchestrator); company-as-filesystem extends the pattern to enterprise
+- [Filesystem as Agent State](../knowledge-base/horizontal/agents/system-design/architecture/filesystem-as-agent-state.md) — Agent architecture reduces to filesystem (state) + LLM (orchestrator); company-as-filesystem extends the pattern to enterprise
 - [Data Silos Block Enterprise Agent Adoption](../knowledge-base/ai-adoption/data-silos-block-agent-adoption.md) — The primary barrier to enterprise agent adoption is fragmented data across SaaS silos, not model capability
 
 ## Notes

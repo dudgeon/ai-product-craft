@@ -102,16 +102,23 @@ Packaged, shareable, non-agentic AI tools (Custom GPTs, Google Gems, Claude Proj
 
 Building and managing knowledge agents — lifecycle management, rules, skills, templates, tools, workflows. How PMs select, onboard, train, and performance-manage AI agents.
 
-#### [System Design](horizontal/agents/system-design/) — Agent Architecture & Control Patterns
+#### [System Design](horizontal/agents/system-design/) — Agent System Design
 
-- [Stepwise Task Execution](horizontal/agents/system-design/stepwise-task-execution.md) — One-task-at-a-time execution with pause-and-approve checkpoints
-- [Meta-Skill Pattern](horizontal/agents/system-design/meta-skill-pattern.md) — Build a "skill that builds skills" to bootstrap agent capabilities consistently
-- [Filesystem as Agent State](horizontal/agents/system-design/filesystem-as-agent-state.md) — Agent architecture = filesystem (state) + LLM (orchestrator); company-as-filesystem gives agents a shared namespace
-- [Knowledge Capture as Side Effect](horizontal/agents/system-design/knowledge-capture-as-side-effect.md) — Design agent systems so knowledge capture is a byproduct of corrections, not a separate task; extends to self-driving documentation `solid`
-- [Agent as Cross-Tool Workflow Hub](horizontal/agents/system-design/agent-as-cross-tool-workflow-hub.md) — Local agent + MCP integrations replaces manual cross-tool workflows; becomes the orchestration layer across disconnected SaaS tools
-- [Agent-Mediated Self-Reflection](horizontal/agents/system-design/agent-mediated-self-reflection.md) — Using agents to observe your behavioral patterns (conflict avoidance, intention-action gaps, unregistered learnings) from digital exhaust
-- [Progressive Tool Disclosure](horizontal/agents/system-design/progressive-tool-disclosure.md) — Revealing MCP tools in layers to combat choice paralysis and hallucination (+15% accuracy vs flat exposure)
-- [Structured Context Loading](horizontal/agents/system-design/structured-context-loading.md) — Purpose-built files (plans, guidelines, journeys) loaded before each interaction to align agent behavior across sessions
+**[Instruction Design](horizontal/agents/system-design/instruction-design/)** — CLAUDE.md, agents.md & behavioral configuration
+- [Structured Context Loading](horizontal/agents/system-design/instruction-design/structured-context-loading.md) — Purpose-built files loaded before each interaction to align agent behavior
+- [Knowledge Capture as Side Effect](horizontal/agents/system-design/instruction-design/knowledge-capture-as-side-effect.md) — Design agent systems so knowledge capture is a byproduct of corrections `solid`
+
+**[Skills](horizontal/agents/system-design/skills/)** — Discrete agent capabilities
+- [Meta-Skill Pattern](horizontal/agents/system-design/skills/meta-skill-pattern.md) — Build a "skill that builds skills" to bootstrap agent capabilities consistently
+
+**[Supervision](horizontal/agents/system-design/supervision/)** — Human governance of agent execution
+- [Stepwise Task Execution](horizontal/agents/system-design/supervision/stepwise-task-execution.md) — One-task-at-a-time execution with pause-and-approve checkpoints
+- [Progressive Tool Disclosure](horizontal/agents/system-design/supervision/progressive-tool-disclosure.md) — Revealing MCP tools in layers to combat choice paralysis and hallucination (+15% accuracy)
+- [Agent-Mediated Self-Reflection](horizontal/agents/system-design/supervision/agent-mediated-self-reflection.md) — Using agents to observe behavioral patterns from digital exhaust
+
+**[Architecture](horizontal/agents/system-design/architecture/)** — Structural foundations
+- [Filesystem as Agent State](horizontal/agents/system-design/architecture/filesystem-as-agent-state.md) — Agent architecture = filesystem (state) + LLM (orchestrator); company-as-filesystem
+- [Agent as Cross-Tool Workflow Hub](horizontal/agents/system-design/architecture/agent-as-cross-tool-workflow-hub.md) — Local agent + MCP integrations as orchestration layer across disconnected SaaS tools
 
 #### [Harnesses](horizontal/agents/harnesses/) — Platform-Specific Knowledge
 

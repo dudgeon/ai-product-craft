@@ -29,7 +29,7 @@ A comprehensive survey of progressive disclosure and context graph patterns for 
 
 - [Three-Layer Context Disclosure](../knowledge-base/horizontal/context/three-layer-context-disclosure.md) — The converging pattern of index → summary → full content for efficient agent retrieval
 - [Filesystem as Retrieval Architecture](../knowledge-base/horizontal/context/filesystem-as-retrieval-architecture.md) — Directory hierarchy as index, frontmatter as metadata, git as temporal layer — not a stopgap but a legitimate retrieval system
-- [Progressive Tool Disclosure](../knowledge-base/horizontal/agents/system-design/progressive-tool-disclosure.md) — Revealing tools in layers to combat MCP tool overload (+15% accuracy)
+- [Progressive Tool Disclosure](../knowledge-base/horizontal/agents/system-design/supervision/progressive-tool-disclosure.md) — Revealing tools in layers to combat MCP tool overload (+15% accuracy)
 - [Retrieval Infrastructure Graduation](../knowledge-base/ai-adoption/retrieval-infrastructure-graduation.md) — Tiered path from filesystem-only to semantic search to knowledge graph, with graduation criteria
 
 ## Notes

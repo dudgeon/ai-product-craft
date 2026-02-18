@@ -36,14 +36,14 @@ Benchmark results show +15% higher accuracy versus loading all tools upfront. Th
 
 ## Sources
 
-### From: [2026-02-14 Progressive Disclosure & Context Graphs](../../../sources/2026-02-14-progressive-disclosure-context-graphs.md)
+### From: [2026-02-14 Progressive Disclosure & Context Graphs](../../../../sources/2026-02-14-progressive-disclosure-context-graphs.md)
 **Key quote**: "Instead of exposing hundreds of MCP tools at once (which causes 'choice paralysis' and hallucination), Strata guides the agent through: Intent → Server Categories → Category Actions → Action Details → Execute."
 **Attribution**: Research synthesis, primarily drawing on Klavis Strata benchmarks
 **What this source adds**: Documents the Strata implementation and its +15% accuracy improvement. Positions tool disclosure as a parallel pattern to knowledge disclosure — same principle (reveal complexity in layers), different application domain (tools vs content).
-**Links**: [Archive](../../../sources/2026-02-14-progressive-disclosure-context-graphs.md)
+**Links**: [Archive](../../../../sources/2026-02-14-progressive-disclosure-context-graphs.md)
 
 ## Related
 
-- [Three-Layer Context Disclosure](../../context/three-layer-context-disclosure.md) — The same principle applied to knowledge retrieval rather than tool selection. Both are instances of progressive disclosure.
-- [Meta-Skill Pattern](meta-skill-pattern.md) — Skills are a lightweight form of tool grouping — the meta-skill pattern organizes agent capabilities into discoverable, composable units.
+- [Three-Layer Context Disclosure](../../../context/three-layer-context-disclosure.md) — The same principle applied to knowledge retrieval rather than tool selection. Both are instances of progressive disclosure.
+- [Meta-Skill Pattern](../skills/meta-skill-pattern.md) — Skills are a lightweight form of tool grouping — the meta-skill pattern organizes agent capabilities into discoverable, composable units.
 - [Stepwise Task Execution](stepwise-task-execution.md) — Related operational pattern: progressive tool disclosure controls what tools are visible, stepwise execution controls how they're used.
