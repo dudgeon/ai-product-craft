@@ -1,6 +1,6 @@
 ---
 created: 2026-02-08
-updated: 2026-02-18
+updated: 2026-02-19
 tags: [index, ai-pm, knowledge-base]
 status: active
 domain: professional-development
@@ -32,6 +32,7 @@ Components: Problem Signal Detection · Market & Competitive Intelligence · Opp
 - [Decision-Anchored Analysis Context](product-lifecycle/discover/decision-anchored-analysis-context.md) — 4-component context loading (project context, business goal, product context, participant overview) to anchor AI analysis to your specific decision `discover/problem-signal-detection`
 - [Few-Shot Calibration for Analysis Classification](product-lifecycle/discover/few-shot-calibration-for-analysis.md) — Labeled examples with rationale for each category level; examples teach, descriptions don't `discover/problem-signal-detection`
 - [AI Analysis Multi-Pass Verification](product-lifecycle/discover/ai-analysis-multi-pass-verification.md) — Deliberate second pass targeting quote errors, within-participant contradictions, and thin evidence `discover/problem-signal-detection`
+- [Latent Demand as Product Signal](product-lifecycle/discover/latent-demand-as-product-signal.md) — Find what people are already doing despite friction; observed off-label behavior reveals unmet demand before any ideation effort `discover/problem-signal-detection`
 
 ### Frame
 
@@ -132,6 +133,7 @@ Building and managing knowledge agents — lifecycle management, rules, skills, 
 #### [Harnesses](horizontal/agents/harnesses/) — Platform-Specific Knowledge
 
 - [Cursor: Structured AI Development](horizontal/agents/harnesses/cursor-structured-ai-development.md) — Three-file rule system, @-includes, MCP config, and Repo Prompt for structured workflows in Cursor
+- [Plan Mode as Claude Code Default](horizontal/agents/harnesses/plan-mode-as-claude-code-default.md) — Begin 80% of tasks in plan mode ("don't write code yet"); review plan, then auto-accept for near-certain one-shot implementation with Opus 4.6
 
 #### [Managing Agents](horizontal/agents/managing-agents/) — The Human-Agent Management Relationship
 
@@ -147,6 +149,7 @@ The practice of managing AI agents as autonomous participants. Distinct from sys
 
 **Agent Selection & Onboarding**:
 - [Model Fit for Qualitative Analysis Tasks](horizontal/agents/managing-agents/selection/model-fit-for-qualitative-analysis.md) — Claude (depth/breadth), Gemini (evidenced themes), ChatGPT (stakeholder framing) as distinct strengths for analysis work; technique quality matters more than model choice
+- [Capability Over Cost in Model Selection](horizontal/agents/managing-agents/selection/capability-over-cost-in-model-selection.md) — Use max-capable model, not cheapest; smarter models burn fewer tokens overall vs. cheap models correcting their own mistakes
 
 ## AI Adoption & Change Management
 
@@ -159,6 +162,10 @@ How organizations and individuals adapt to AI-native ways of working — scaling
 - [Tool Identity as Adoption Gate](ai-adoption/tool-identity-as-adoption-gate.md) — When a capable AI tool has narrow adoption, the bottleneck may be naming/branding/positioning, not capability
 - [Retrieval Infrastructure Graduation](ai-adoption/retrieval-infrastructure-graduation.md) — Tiered path from filesystem-only → semantic search → knowledge graph, with graduation criteria for each transition
 - [Raise the Floor vs Raise the Ceiling](ai-adoption/raise-the-floor-vs-raise-the-ceiling.md) — Two axes of AI adoption: floor (Gems, packaged runtimes for everyone) vs ceiling (agentic methods for power users); effective change management sequences and balances both
+- [Build for Future Model Capability](ai-adoption/build-for-future-model-capability.md) — Design AI products for the model 6 months out, not today; accept poor early PMF as the cost of being ready when that model ships
+- [Intentional Understaffing for AI-First Teams](ai-adoption/intentional-understaffing-ai-first-teams.md) — Deliberately staff lightly to force AI to carry more work; constraint drives creative AI adoption, not just faster typing
+- [Delay Token Cost Optimization](ai-adoption/delay-token-cost-optimization.md) — Give teams unlimited tokens during experimentation; token cost < salary cost at small scale; optimize only after proven scale
+- [Generalists Outperform Specialists in AI Era](ai-adoption/generalists-outperform-specialists-ai-era.md) — AI compresses deep execution; curious cross-discipline generalists capture the highest rewards as AI handles more of the specialist's edge
 
 ---
 
@@ -167,6 +174,7 @@ How organizations and individuals adapt to AI-native ways of working — scaling
 How AI transforms the disciplines of PMs' close collaborators (engineering, design, analytics) — and what their shifting AI adoption means for product leadership. In many non-AI-native orgs, engineering leads product in agentic adoption; PMs are likely to lead design and analytics.
 
 - [Spec-Driven Development](adjacent-disciplines/spec-driven-development.md) — Software ships as specs + tests with zero code; works for stable utilities, breaks for anything needing performance, debugging, community, or security patching
+- [AI Moves from Execution to Ideation](adjacent-disciplines/ai-moves-from-execution-to-ideation.md) — AI is beginning to generate product ideas from telemetry and feedback, not just execute instructions; engineering shifts from implementation to judgment curation
 
 ---
 

@@ -196,6 +196,8 @@ Master index of all source material. Sortable by status, type, author, and date.
 | unread | [2026-02-12 How Claude Code Is Transforming Finance—Without Turning You Into a Coder](2026-02-12-claude-code-transforming-finance.md) | Brooker Belcourt | article | 2026-02-17 | — |
 | processed | [2026-02-12 Letta Context Repositories Git Memory](2026-02-12-letta-context-repositories-git-memory.md) | Letta | article | 2026-02-14 | 4 |
 | processed | [2026-02-18 How to Do AI Analysis You Can Actually Trust](2026-02-18-ai-analysis-you-can-actually-trust.md) | Caitlin Sullivan | newsletter | 2026-02-18 | 7 |
+| processed | [2026-02-19 Head of Claude Code: What Happens After Coding Is Solved](2026-02-19-head-of-claude-code-boris-cherny.md) | Boris Cherny | podcast | 2026-02-19 | 8 |
+| unread | [2026-02-19 What Board Games Taught Me About Working with AI](2026-02-19-board-games-taught-me-working-with-ai.md) | Katie Parrott | article | 2026-02-20 | — |
 | unread | [2026-02-12 Vibe Check Codex App vs Claude Code](2026-02-12-vibe-check-codex-app-vs-claude-code.md) | Katie Parrott | article | 2026-02-15 | — |
 | processed | [2026-02-13 Agentic Team Memory Devin](2026-02-13-agentic-team-memory-devin.md) | Nader Dabit (@dabit3) | article | 2026-02-14 | [Knowledge Capture as Side Effect](../knowledge-base/horizontal/agents/system-design/instruction-design/knowledge-capture-as-side-effect.md), [Self-Maintaining Knowledge Bases](../knowledge-base/ai-adoption/self-maintaining-knowledge-bases.md) |
 | unread | [2026-02-13 ClawVault Agent Memory Obsidian Architecture](2026-02-13-clawvault-agent-memory-obsidian-architecture.md) | Pedro (@sillydarket) | article | 2026-02-14 | — |
@@ -382,6 +384,7 @@ Master index of all source material. Sortable by status, type, author, and date.
 - [2026-02-15 Claire Vo GPT-5.3 Codex vs Opus 4.6](2026-02-15-claire-vo-gpt53-codex-vs-opus46.md) — Claire Vo puts OpenAI's GPT-5.3 Codex and Anthropic's Claude Opus 4.6 head-to-head on real engineering tasks
 - [2026 Agent Native Architectures Guide](2026-agent-native-architectures-guide.md) — Coauthored with Claude. Principles from building Reader and Anecdote. A coding agent is actually a general-purpose agent
 - [2026 Compound Engineering Guide](2026-compound-engineering-guide.md) — AI Development Ladder progression from basic chat assistance to fully autonomous engineering
+- [2026-02-19 What Board Games Taught Me About Working with AI](2026-02-19-board-games-taught-me-working-with-ai.md) — Katie Parrott applies board game 'teach' framework (pieces→moves→systems→victory) to build a compound writing agent; TASTE.md + CLAUDE.md analog; two-layer system: defaults (baseline) + taste (fills over time); "the engine only reveals its flaws when I actually play" (partial paywall)
 
 ### Reading
 *None yet.*
@@ -404,15 +407,16 @@ Master index of all source material. Sortable by status, type, author, and date.
 - [2026-01-27 Management as AI Superpower](2026-01-27-ethan-mollick-management-as-ai-superpower.md) — Three-variable delegation framework, delegation documentation as AI prompts, talent-to-direction scarcity shift (One Useful Thing) → [Delegation Decision Framework](../knowledge-base/horizontal/agents/managing-agents/task-fit/delegation-decision-framework.md), [Delegation Documentation as Agent Prompts](../knowledge-base/horizontal/agents/managing-agents/delegation/delegation-documentation-as-prompts.md), [Talent-to-Direction Scarcity Shift](../knowledge-base/horizontal/agents/managing-agents/talent-to-direction-scarcity-shift.md)
 - [2026-02-12 Letta Context Repositories Git Memory](2026-02-12-letta-context-repositories-git-memory.md) — Git-backed agent memory as filesystem: agent-self-managed progressive disclosure, initialize/reflect/defragment lifecycle skills, git-versioned commits, concurrent worktrees for memory swarms (Letta) → [Agent-Self-Managed Progressive Disclosure](../knowledge-base/horizontal/context/agent-self-managed-progressive-disclosure.md), [Agent Memory Lifecycle Skills](../knowledge-base/horizontal/agents/system-design/skills/agent-memory-lifecycle-skills.md), [Git-Versioned Agent Memory](../knowledge-base/horizontal/agents/system-design/architecture/git-versioned-agent-memory.md), [Concurrent Agent Memory via Git Worktrees](../knowledge-base/horizontal/agents/system-design/architecture/concurrent-agent-memory-via-worktrees.md)
 - [2026-02-18 How to Do AI Analysis You Can Actually Trust](2026-02-18-ai-analysis-you-can-actually-trust.md) — Four failure modes of AI qualitative analysis with fixes: quote selection rules, quote verification pass, decision-anchored context loading, few-shot calibration, multi-pass verification; LLMs generate not retrieve; model fit for analysis (Caitlin Sullivan / Lenny's Newsletter) → [Quote Selection Rules](../knowledge-base/product-lifecycle/discover/quote-selection-rules-for-ai-analysis.md), [Quote Verification Pass](../knowledge-base/product-lifecycle/discover/quote-verification-pass.md), [Decision-Anchored Analysis Context](../knowledge-base/product-lifecycle/discover/decision-anchored-analysis-context.md), [Few-Shot Calibration for Analysis](../knowledge-base/product-lifecycle/discover/few-shot-calibration-for-analysis.md), [AI Analysis Multi-Pass Verification](../knowledge-base/product-lifecycle/discover/ai-analysis-multi-pass-verification.md), [LLMs Generate Not Retrieve](../knowledge-base/horizontal/prompting/llms-generate-not-retrieve.md), [Model Fit for Qualitative Analysis](../knowledge-base/horizontal/agents/managing-agents/selection/model-fit-for-qualitative-analysis.md)
+- [2026-02-19 Head of Claude Code: What Happens After Coding Is Solved](2026-02-19-head-of-claude-code-boris-cherny.md) — Coding "solved" (0% hand-written code, 10–30 PRs/day, 200% Anthropic productivity gains); build for model 6 months out; understaff to force AI adoption; delay token cost optimization; plan mode as default; use max-capable model; AI moving from execution to ideation; generalists outperform (Boris Cherny / Lenny's Podcast) → [Latent Demand as Product Signal](../knowledge-base/product-lifecycle/discover/latent-demand-as-product-signal.md), [Build for Future Model Capability](../knowledge-base/ai-adoption/build-for-future-model-capability.md), [Intentional Understaffing for AI-First Teams](../knowledge-base/ai-adoption/intentional-understaffing-ai-first-teams.md), [Delay Token Cost Optimization](../knowledge-base/ai-adoption/delay-token-cost-optimization.md), [Plan Mode as Claude Code Default](../knowledge-base/horizontal/agents/harnesses/plan-mode-as-claude-code-default.md), [Capability Over Cost in Model Selection](../knowledge-base/horizontal/agents/managing-agents/selection/capability-over-cost-in-model-selection.md), [AI Moves from Execution to Ideation](../knowledge-base/adjacent-disciplines/ai-moves-from-execution-to-ideation.md), [Generalists Outperform Specialists in AI Era](../knowledge-base/ai-adoption/generalists-outperform-specialists-ai-era.md)
 
 ---
 
 ## Stats
 
-- **Total sources**: 183
-- **Unread**: 166
+- **Total sources**: 185
+- **Unread**: 167
 - **Read (awaiting processing)**: 1
-- **Processed**: 14
-- **Knowledge entries generated**: 43
+- **Processed**: 15
+- **Knowledge entries generated**: 51
 
-*Updated: 2026-02-18*
+*Updated: 2026-02-20*

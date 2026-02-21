@@ -14,8 +14,9 @@ scraped_by: claude
 
 Tracks every article/episode considered from lennysnewsletter.com, with scrape decisions and links to source files. Used to avoid re-processing on future runs.
 
-**Scrape run**: 2026-02-15 (selective — AI-relevant content only, no systematic full-catalog scan)
-**Next run**: Check lennysnewsletter.com for new AI-focused content since Feb 15, 2026. Use skip criteria below to filter.
+**Scrape run**: 2026-02-19 (added 2 articles: Caitlin Sullivan guest post 2/18, Boris Cherny podcast 2/19)
+**Previous run**: 2026-02-15 (selective — AI-relevant content only, no systematic full-catalog scan)
+**Next run**: Check lennysnewsletter.com for new AI-focused content since Feb 19, 2026. Use skip criteria below to filter.
 
 ---
 
@@ -90,6 +91,8 @@ The publication covers the full breadth of product management — only a subset 
 | 2026-02-08 | Marily Nika | PM AI toolkit demo (How I AI / Lenny's crosspost) | [2026-02-08-marily-nika-pm-ai-toolkit.md](2026-02-08-marily-nika-pm-ai-toolkit.md) |
 | 2026-02-10 | Marily Nika | Building AI product sense, part 2 (guest post) | [2026-02-10-building-ai-product-sense-part-2-marily-nika.md](2026-02-10-building-ai-product-sense-part-2-marily-nika.md) |
 | 2026-02-13 | Lenny Rachitsky | Everyone should use Claude Code more | [2026-02-13-everyone-should-use-claude-code-more.md](2026-02-13-everyone-should-use-claude-code-more.md) |
+| 2026-02-18 | Caitlin Sullivan | How to do AI analysis you can actually trust (guest post) | [2026-02-18-ai-analysis-you-can-actually-trust.md](2026-02-18-ai-analysis-you-can-actually-trust.md) |
+| 2026-02-19 | Boris Cherny | Head of Claude Code: What happens after coding is solved (podcast) | [2026-02-19-head-of-claude-code-boris-cherny.md](2026-02-19-head-of-claude-code-boris-cherny.md) |
 
 ---
 
@@ -124,8 +127,8 @@ These represent known or likely Lenny's content that was present but not relevan
 
 ## Stats
 
-- **Podcast episodes scraped**: 8
-- **Newsletter issues / guest posts scraped**: 13
-- **Total scraped**: 21
+- **Podcast episodes scraped**: 9
+- **Newsletter issues / guest posts scraped**: 14
+- **Total scraped**: 23
 - **Coverage**: Highly selective — only AI-relevant content from 2023–present. Lenny's publishes 50+ issues/year; the vast majority were skipped.
 - **Catalog note**: No systematic page-by-page scan was done. Coverage reflects articles surfaced through curation and direct links, not exhaustive crawl. Future runs should search lennysnewsletter.com for AI-tagged content.

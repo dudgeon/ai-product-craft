@@ -1,11 +1,11 @@
 ---
 created: 2026-02-17
-updated: 2026-02-17
+updated: 2026-02-20
 tags: [scrape-log, every-to, ai-pm]
 status: active
 domain: professional-development
 project: ai-pm
-scrape_range: "2025-09-02 to 2026-02-17"
+scrape_range: "2025-09-02 to 2026-02-20"
 scrape_pages: "every.to/newsletter pages 1–6"
 scraped_by: claude
 ---
@@ -14,8 +14,9 @@ scraped_by: claude
 
 Tracks every article considered from every.to/newsletter, with scrape decisions and links to source files. Used to avoid re-processing on future runs.
 
-**Scrape run**: 2026-02-17 (pages 1–6, covering Sep 2, 2025 – Feb 17, 2026)
-**Next run**: Start from Feb 17, 2026 and check for new articles above last scraped date.
+**Scrape run**: 2026-02-20 (added 1 article: Katie Parrott board games Feb 19)
+**Previous run**: 2026-02-17 (pages 1–6, covering Sep 2, 2025 – Feb 17, 2026)
+**Next run**: Start from Feb 20, 2026 and check for new articles above last scraped date.
 
 ---
 
@@ -56,6 +57,7 @@ Every.to uses URL-prefix "columns" that predict article type:
 
 | Date | Title | Author | URL | Decision | Reason / Source File |
 |---|---|---|---|---|---|
+| 2026-02-19 | What Board Games Taught Me About Working with AI | Katie Parrott | [link](https://every.to/working-overtime/what-board-games-taught-me-about-working-with-ai) | scrape | [2026-02-19-board-games-taught-me-working-with-ai.md](2026-02-19-board-games-taught-me-working-with-ai.md) |
 | 2026-02-17 | Introducing Monologue for iOS | Naveen Naidu | [link](https://every.to/on-every/introducing-monologue-for-ios) | skip | Every product announcement |
 | 2026-02-17 | How to Build Agent-native: Lessons From Four Apps | Katie Parrott | [link](https://every.to/source-code/how-to-build-agent-native-lessons-from-four-apps) | scrape | [2026-02-17-how-to-build-agent-native-lessons-from-four-apps.md](2026-02-17-how-to-build-agent-native-lessons-from-four-apps.md) |
 | 2026-02-13 | AI as Fast as Your Train of Thought | Every Staff | [link](https://every.to/context-window/ai-as-fast-as-your-train-of-thought) | skip | Newsletter digest |
