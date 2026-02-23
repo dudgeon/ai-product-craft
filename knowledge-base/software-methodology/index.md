@@ -21,6 +21,7 @@ The test: is this about *how the methodology itself is evolving* rather than *ho
 ## Entries
 
 - [Compound Engineering Loop](compound-engineering-loop.md) — Four-step loop (Plan → Work → Assess → Compound) where each feature makes the next easier; inverts traditional complexity debt
+- [OAI Harness Engineering](oai-harness-engineering.md) — Zero manually-written code at scale; humans steer (environments, intent, feedback loops), agents execute everything; rigid architecture + mechanical enforcement + continuous entropy management
 
 ## Related Areas
 

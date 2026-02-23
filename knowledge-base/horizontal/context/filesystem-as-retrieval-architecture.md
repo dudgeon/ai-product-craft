@@ -1,6 +1,6 @@
 ---
 created: 2026-02-14
-updated: 2026-02-14
+updated: 2026-02-22
 template: templates/knowledge-entry.md
 template_version: 4
 tags: [knowledge, ai-pm, mental-model, context-engineering, filesystem, retrieval, git]
@@ -45,6 +45,12 @@ Letta's Context Repositories validate this empirically: agents clone a git-backe
 **Attribution**: Research synthesis, primarily drawing on Letta's Context Repositories (Feb 2026)
 **What this source adds**: Validates the filesystem-only approach by surveying Letta's production implementation (agents clone repos, use terminal tools, git provides temporal tracking). Also establishes the principle that semantic search should be treated as an acceleration layer on top of filesystem conventions, not a replacement for them.
 **Links**: [Letta Blog Post](https://www.letta.com/blog/context-repositories) | [Archive](../../sources/2026-02-14-progressive-disclosure-context-graphs.md)
+
+### From: [2026-02-13 Harness Engineering Leveraging Codex](../../sources/2026-02-13-harness-engineering-leveraging-codex.md)
+**Key quote**: "From the agent's point of view, anything it can't access in-context while running effectively doesn't exist."
+**Attribution**: Ryan Lopopolo, OpenAI
+**What this source adds**: The strongest articulation yet of the "repo as system of record" principle at production scale. OAI pushes all context into the repository because knowledge in Google Docs, chat threads, or people's heads is invisible to the agent — in the same way it would be unknown to a new hire. The team favors dependencies that can be fully internalized and reasoned about in-repo, sometimes reimplementing library subsets to avoid opaque upstream behavior. This validates the filesystem-as-retrieval thesis: the repo isn't a convenience layer over "real" infrastructure — it IS the system of record.
+**Links**: [Original](https://openai.com/index/harness-engineering/) | [Archive](../../sources/2026-02-13-harness-engineering-leveraging-codex.md)
 
 ## Related
 

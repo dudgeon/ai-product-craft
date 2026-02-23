@@ -1,6 +1,6 @@
 ---
 created: 2026-02-14
-updated: 2026-02-14
+updated: 2026-02-22
 template: templates/knowledge-entry.md
 template_version: 4
 tags: [knowledge, ai-pm, technique, context-engineering, progressive-disclosure, retrieval]
@@ -46,6 +46,12 @@ The technique achieves roughly 10x token savings compared to "dump everything" a
 **Attribution**: Research synthesis citing Claude-Mem, Letta, Inferable.ai, Will Larson, Klavis Strata, and Anthropic's context engineering guidance
 **What this source adds**: Surveys multiple independent implementations that converge on this pattern, identifies the three layers as a consensus architecture, and provides concrete token budget estimates per layer. Also documents the Inferable.ai finding that giving LLMs more context often makes them *worse* at instruction-following — the counterintuitive result that motivates the technique.
 **Links**: [Archive](../../sources/2026-02-14-progressive-disclosure-context-graphs.md)
+
+### From: [2026-02-13 Harness Engineering Leveraging Codex](../../sources/2026-02-13-harness-engineering-leveraging-codex.md)
+**Key quote**: "Give Codex a map, not a 1,000-page instruction manual."
+**Attribution**: Ryan Lopopolo, OpenAI
+**What this source adds**: Production validation of the three-layer pattern at scale (~1M lines, ~1,500 PRs). OAI's AGENTS.md (~100 lines) serves as a table of contents pointing to a structured docs/ directory — a direct implementation of layer 1 (map) pointing to layer 2/3 (docs). They explicitly document why the monolithic approach fails: it crowds out the task, turns non-guidance when everything is "important," rots instantly, and resists mechanical verification. Their mitigation includes dedicated linters and CI jobs that validate the knowledge base is cross-linked and up to date — a novel enforcement layer on top of the disclosure pattern.
+**Links**: [Original](https://openai.com/index/harness-engineering/) | [Archive](../../sources/2026-02-13-harness-engineering-leveraging-codex.md)
 
 ## Related
 

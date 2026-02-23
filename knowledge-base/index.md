@@ -123,12 +123,14 @@ Building and managing knowledge agents — lifecycle management, rules, skills, 
 - [Stepwise Task Execution](horizontal/agents/system-design/supervision/stepwise-task-execution.md) — One-task-at-a-time execution with pause-and-approve checkpoints
 - [Progressive Tool Disclosure](horizontal/agents/system-design/supervision/progressive-tool-disclosure.md) — Revealing MCP tools in layers to combat choice paralysis and hallucination (+15% accuracy)
 - [Agent-Mediated Self-Reflection](horizontal/agents/system-design/supervision/agent-mediated-self-reflection.md) — Using agents to observe behavioral patterns from digital exhaust
+- [Agent Entropy Management](horizontal/agents/system-design/supervision/agent-entropy-management.md) — Recurring cleanup agents as garbage collection; encode taste once as golden principles, enforce continuously on every line
 
 **[Architecture](horizontal/agents/system-design/architecture/)** — Structural foundations
 - [Filesystem as Agent State](horizontal/agents/system-design/architecture/filesystem-as-agent-state.md) — Agent architecture = filesystem (state) + LLM (orchestrator); company-as-filesystem
 - [Agent as Cross-Tool Workflow Hub](horizontal/agents/system-design/architecture/agent-as-cross-tool-workflow-hub.md) — Local agent + MCP integrations as orchestration layer across disconnected SaaS tools
 - [Git-Versioned Agent Memory](horizontal/agents/system-design/architecture/git-versioned-agent-memory.md) — Every memory change is a commit with message; audit trail, rollback, temporal narrative of agent learning; extends filesystem-as-retrieval with a temporal layer
 - [Concurrent Agent Memory via Git Worktrees](horizontal/agents/system-design/architecture/concurrent-agent-memory-via-worktrees.md) — Multiple subagents write to shared memory simultaneously via isolated git worktrees; enables memory swarms for initialization and parallel learning
+- [Mechanical Architecture Enforcement for Agents](horizontal/agents/system-design/architecture/mechanical-architecture-enforcement.md) — Custom linters with agent-targeted error messages enforce rigid layer models; pedantic rules become multipliers with agents
 
 #### [Harnesses](horizontal/agents/harnesses/) — Platform-Specific Knowledge
 
@@ -174,6 +176,7 @@ How organizations and individuals adapt to AI-native ways of working — scaling
 How AI fundamentally changes software delivery paradigms — not just augmenting existing phases, but reshaping the methodology itself. The test: is this about *how the methodology itself is evolving* rather than *how to use AI within the current methodology*?
 
 - [Compound Engineering Loop](software-methodology/compound-engineering-loop.md) — Four-step loop (Plan → Work → Assess → Compound) where each feature makes the next easier; inverts traditional complexity debt; 80% of time in planning and review
+- [OAI Harness Engineering](software-methodology/oai-harness-engineering.md) — Zero manually-written code at scale; humans steer (environments, intent, feedback loops), agents execute everything; rigid architecture + mechanical enforcement + continuous entropy management
 
 ---
 
