@@ -1,10 +1,10 @@
 ---
 created: 2026-02-17
-updated: 2026-02-17
+updated: 2026-02-23
 template: templates/source.md
 template_version: 3
 tags: [source, ai-pm]
-status: unread
+status: processed
 source_type: article
 source_url: "https://every.to/source-code/compound-engineering-how-every-codes-with-agents-af3a1bae-cf9b-458e-8048-c6b4ba860e62"
 archive_url: "domains/professional-development/ai-pm/sources/2026-01-30-compound-engineering-how-every-codes-with-agents.md"
@@ -25,15 +25,20 @@ scraped_by: claude
 
 ## Summary
 
-*Fill after reading with your own take. 2-3 sentences: what is this about, what's the core argument or insight? (The frontmatter `summary` field has the auto-generated triage summary from ingestion.)*
+Dan Shipper and Kieran Klaassen define "compound engineering" — the methodology Every uses to run five software products with minimal staffing. Core insight: when agents write 100% of code, complexity debt inverts — each feature makes the next *easier* through encoded learnings. The four-step loop (Plan, Work, Assess, Compound) shifts 80% of engineering time to planning and review. The "compound" step — encoding bugs, design decisions, and code review lessons into rules files — is what makes the loop self-improving.
 
 ## Key Ideas Extracted
 
-*Fill during processing. Each idea links to a knowledge entry.*
+- [Compound Engineering Loop](../knowledge-base/software-methodology/compound-engineering-loop.md) — The core four-step methodology (Plan → Work → Assess → Compound) as a mental model for agent-first software development
+- [Knowledge Capture as Side Effect](../knowledge-base/horizontal/agents/system-design/instruction-design/knowledge-capture-as-side-effect.md) — (enriched) The compound step is this pattern applied to engineering: rules files grow as a byproduct of code review
+- [Intentional Understaffing for AI-First Teams](../knowledge-base/ai-adoption/intentional-understaffing-ai-first-teams.md) — (enriched) Five products, each run by one or two people, as the enabling organizational context
 
 ## Notes
 
-*Your annotations, reactions, questions, disagreements. Written during or after reading.*
+- The article is relatively brief — it describes the loop at a high level. The companion sources (Definitive Guide, individual step articles) likely go deeper into each step.
+- "Source Code" column version of the article originally published in "Chain of Thought" column on 2025-12-11. Same URL slug with different column prefix.
+- Related sources for deeper treatment: `2026-01-28-stop-coding-and-start-planning.md` (Plan step), `2026-01-29-teach-your-ai-to-think-like-senior-engineer.md` (planning strategies), `2026-02-09-compound-engineering-definitive-guide.md` (comprehensive guide), `2026-compound-engineering-guide.md` (full guide).
+- Duplicate source exists at `2026-02-12-compound-engineering-every-codes-agents-v2.md` (same URL, bulk-added without content).
 
 ## Raw Content
 

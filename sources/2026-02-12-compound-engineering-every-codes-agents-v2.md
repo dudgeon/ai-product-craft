@@ -5,7 +5,7 @@ updated: 2026-02-15
 template: templates/source.md
 template_version: 3
 tags: [source, ai-pm, claude-added]
-status: unread
+status: duplicate
 source_type: article
 source_url: "https://every.to/source-code/compound-engineering-how-every-codes-with-agents-af3a1bae-cf9b-458e-8048-c6b4ba860e62"
 archive_url: ""
@@ -36,8 +36,8 @@ project: ai-pm
 
 ## Notes
 
-*This source was bulk-added from web search results. The summary is inferred from search snippets, not full article text. Re-scrape from Every.to before processing to ensure completeness.*
+**Duplicate of [2026-01-30 Compound Engineering: How Every Codes With Agents](2026-01-30-compound-engineering-how-every-codes-with-agents.md)** — same URL, same article. The 2026-01-30 file has full raw content and has been processed. This file was bulk-added separately from source-compilation.md with a different published date (2026-02-12 vs 2026-01-30).
 
 ## Raw Content
 
-*Not yet captured. Re-scrape needed before processing.*
+*See canonical source file: [2026-01-30-compound-engineering-how-every-codes-with-agents.md](2026-01-30-compound-engineering-how-every-codes-with-agents.md)*

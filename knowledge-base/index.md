@@ -1,6 +1,6 @@
 ---
 created: 2026-02-08
-updated: 2026-02-19
+updated: 2026-02-23
 tags: [index, ai-pm, knowledge-base]
 status: active
 domain: professional-development
@@ -166,6 +166,14 @@ How organizations and individuals adapt to AI-native ways of working — scaling
 - [Intentional Understaffing for AI-First Teams](ai-adoption/intentional-understaffing-ai-first-teams.md) — Deliberately staff lightly to force AI to carry more work; constraint drives creative AI adoption, not just faster typing
 - [Delay Token Cost Optimization](ai-adoption/delay-token-cost-optimization.md) — Give teams unlimited tokens during experimentation; token cost < salary cost at small scale; optimize only after proven scale
 - [Generalists Outperform Specialists in AI Era](ai-adoption/generalists-outperform-specialists-ai-era.md) — AI compresses deep execution; curious cross-discipline generalists capture the highest rewards as AI handles more of the specialist's edge
+
+---
+
+## [Software Methodology](software-methodology/)
+
+How AI fundamentally changes software delivery paradigms — not just augmenting existing phases, but reshaping the methodology itself. The test: is this about *how the methodology itself is evolving* rather than *how to use AI within the current methodology*?
+
+- [Compound Engineering Loop](software-methodology/compound-engineering-loop.md) — Four-step loop (Plan → Work → Assess → Compound) where each feature makes the next easier; inverts traditional complexity debt; 80% of time in planning and review
 
 ---
 

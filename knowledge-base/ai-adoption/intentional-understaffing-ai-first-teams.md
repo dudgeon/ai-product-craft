@@ -1,6 +1,6 @@
 ---
 created: 2026-02-19
-updated: 2026-02-19
+updated: 2026-02-23
 template: templates/knowledge-entry.md
 template_version: 5
 tags: [knowledge, ai-pm]
@@ -37,8 +37,15 @@ Note: this is a leadership technique, not an individual practice. It requires a 
 **What this source adds**: Cherny practices this at Anthropic, the company that builds Claude Code. The technique comes from someone who has direct visibility into what AI can do and is deliberately using constraint to force discovery.
 **Links**: [Original](https://www.lennysnewsletter.com/p/head-of-claude-code-what-happens) | [Archive](../sources/2026-02-19-head-of-claude-code-boris-cherny.md)
 
+### From: [2026-01-30 Compound Engineering: How Every Codes With Agents](../sources/2026-01-30-compound-engineering-how-every-codes-with-agents.md)
+**Key quote**: "We run five software products in-house (and are incubating a few more), each of which is run mostly by one or two people."
+**Attribution**: Dan Shipper, Kieran Klaassen
+**What this source adds**: Independent corroboration from a different org (Every, not Anthropic). Where Cherny describes understaffing as a deliberate forcing function, Every demonstrates the outcome: five products, minimal staffing, enabled by compound engineering. The understaffing isn't framed as constraint — it's presented as the natural result of AI-native methodology making traditional team sizes unnecessary.
+**Links**: [Original](https://every.to/source-code/compound-engineering-how-every-codes-with-agents-af3a1bae-cf9b-458e-8048-c6b4ba860e62) | [Archive](../sources/2026-01-30-compound-engineering-how-every-codes-with-agents.md)
+
 ## Related
 
 - [Delay Token Cost Optimization](delay-token-cost-optimization.md) — Understaffing only works if you also give the team unlimited tokens; pairing both creates the right AI-first forcing function
 - [Build for Future Model Capability](build-for-future-model-capability.md) — Understaffing is the forcing function for adoption; future-model design frames what the team is building toward
 - [Raise the Floor vs Raise the Ceiling](raise-the-floor-vs-raise-the-ceiling.md) — Understaffing is a ceiling-raising technique; it surfaces what's possible at the frontier, not what scales to everyone
+- [Compound Engineering Loop](../software-methodology/compound-engineering-loop.md) — The methodology that makes single-person teams viable; understaffing creates the constraint, compound engineering provides the process

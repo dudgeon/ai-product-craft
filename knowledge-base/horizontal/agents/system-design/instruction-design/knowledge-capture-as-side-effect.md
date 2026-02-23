@@ -1,6 +1,6 @@
 ---
 created: 2026-02-14
-updated: 2026-02-14
+updated: 2026-02-23
 template: templates/knowledge-entry.md
 template_version: 4
 tags: [knowledge, ai-pm, practice, agents, memory, knowledge-management]
@@ -54,6 +54,12 @@ At the most ambitious end, agents can *autonomously* identify and fill documenta
 **What this source adds**: Extends the pattern from reactive (capture corrections) to proactive (agent autonomously identifies gaps). Four independent examples show a spectrum: auto-changelogs from commits (Aggarwal), reverse-built PRDs from code (Salisbury), verbose commits as future agent context (Chandwani), and fully autonomous doc exploration (Pember). Together with the Devin source, this confirms the pattern across both team/product contexts and individual PM workflows.
 **Links**: [Original](https://www.lennysnewsletter.com/p/everyone-should-be-using-claude-code) | [Archive](../../../../sources/2026-02-13-everyone-should-use-claude-code-more.md)
 
+### From: [2026-01-30 Compound Engineering: How Every Codes With Agents](../../../../sources/2026-01-30-compound-engineering-how-every-codes-with-agents.md)
+**Key quote**: "We take what we learned in any of the previous steps—bugs, potential performance issues, edge cases—and encode them as rules in our codebase that the agent reads at the beginning of each new task... learnings are automatically distributed to the team. Because the rules live in the codebase, every team member—and every agent—reads them."
+**Attribution**: Dan Shipper, Kieran Klaassen
+**What this source adds**: Positions knowledge capture as the "money step" in a formalized engineering loop — not just a nice-to-have but the step that makes compound engineering compound. The rules are "built up in a mostly automated fashion—after a code review, we'll ask Claude to summarize what we learned and add that to the rules file." This is the pattern at its most systematic: every code review generates a permanent rule, and Cora's comprehensive rule set is the cumulative product of every bug fix and design decision.
+**Links**: [Original](https://every.to/source-code/compound-engineering-how-every-codes-with-agents-af3a1bae-cf9b-458e-8048-c6b4ba860e62) | [Archive](../../../../sources/2026-01-30-compound-engineering-how-every-codes-with-agents.md)
+
 ### From: [2026-02-08 Getting Paid to Vibe Code](../../../../sources/2026-02-08-vibe-coding-new-ai-job.md)
 **Key quote**: "After solving a problem, ask the AI how to prompt it better next time, then add that guidance to your rules.md file."
 **Attribution**: Lazar Jovanovic (via Lenny Rachitsky)
@@ -67,3 +73,4 @@ At the most ambitious end, agents can *autonomously* identify and fill documenta
 - [Reverse Engineer Judgment Into AI](../../../../ai-adoption/reverse-engineer-judgment-into-ai.md) — corrections encode expert judgment; this pattern is a mechanism for systematically extracting that judgment
 - [Agent-Mediated Self-Reflection](../supervision/agent-mediated-self-reflection.md) — Chad Boyda's pattern (surfacing learnings from Slack) bridges self-reflection and knowledge capture
 - [Structured Context Loading](structured-context-loading.md) — the rules file is one component of a broader structured context system
+- [Compound Engineering Loop](../../../../software-methodology/compound-engineering-loop.md) — the "compound" step in Every's four-step loop is this pattern formalized as a methodology step; the rules file IS the compound output

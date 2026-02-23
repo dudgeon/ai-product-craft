@@ -1,6 +1,6 @@
 ---
 created: 2026-02-08
-updated: 2026-02-15
+updated: 2026-02-23
 tags: [meta, ai-pm, taxonomy]
 status: active
 ---
@@ -13,7 +13,7 @@ For full phase lineage, component descriptions, and AI-PM emphasis, see [Lifecyc
 
 ---
 
-## Four Domains
+## Five Domains
 
 Every knowledge entry belongs to exactly one domain.
 
@@ -23,6 +23,7 @@ Every knowledge entry belongs to exactly one domain.
 | **Horizontal** | `knowledge-base/horizontal/{horizontal_domain}/` | Lifecycle-agnostic AI PM skills and knowledge areas — see Horizontal Domains below |
 | **AI Adoption & Change Management** | `knowledge-base/ai-adoption/` | How organizations and individuals adapt to AI-native ways of working — scaling expertise, org change, driving adoption |
 | **Adjacent Disciplines** | `knowledge-base/adjacent-disciplines/` | How AI transforms the disciplines of PMs' close collaborators (engineering, design, analytics) — and what their shifting AI adoption means for product leadership |
+| **Software Methodology** | `knowledge-base/software-methodology/` | How AI fundamentally changes software delivery paradigms — compound engineering, spec-driven development, vibe coding. Distinct from lifecycle-phase techniques (which augment a phase) and horizontal skills (which are lifecycle-agnostic PM tools). The test: is this about *how the methodology itself is evolving*? |
 
 ### Classification test
 
@@ -30,6 +31,7 @@ Every knowledge entry belongs to exactly one domain.
 2. **Is it a lifecycle-agnostic AI PM skill or knowledge area?** → Horizontal (then determine which horizontal domain — see below)
 3. **Is it about bringing others along or changing how teams/orgs work?** → AI Adoption & Change Management
 4. **Is it about how AI transforms a collaborator discipline (engineering, design, analytics) and what that means for PMs?** → Adjacent Disciplines
+5. **Is it about how AI fundamentally changes the software delivery methodology itself?** → Software Methodology
 
 ---
 
@@ -192,7 +194,7 @@ Knowledge entry frontmatter fields for taxonomy:
 ```yaml
 # Required
 entry_type: technique | mental-model | insight
-domain: product-lifecycle | horizontal | ai-adoption | adjacent-disciplines
+domain: product-lifecycle | horizontal | ai-adoption | adjacent-disciplines | software-methodology
 
 # Required for product-lifecycle entries
 lifecycle_phase: discover | frame | shape | build | release | measure
